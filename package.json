@@ -1,0 +1,65 @@
+{
+  "name": "highlight-sparql-generate",
+  "version": "0.1.0",
+  "description": "Syntax highlighting for SPARQL-Generate (.rqg): one lexicon, six engines (TextMate, highlight.js, Prism, CodeMirror 6, Pygments).",
+  "license": "Apache-2.0",
+  "author": "Maxime Lefrançois",
+  "repository": "github:sparql-generate/highlight-sparql-generate",
+  "homepage": "https://github.com/sparql-generate/highlight-sparql-generate",
+  "keywords": [
+    "codemirror",
+    "highlight.js",
+    "prism",
+    "pygments",
+    "rdf",
+    "sparql",
+    "sparql-generate",
+    "syntax-highlighting",
+    "textmate"
+  ],
+  "main": "src/index.js",
+  "exports": {
+    ".": "./src/index.js",
+    "./lexicon": "./src/lexicon.js",
+    "./codemirror": "./src/codemirror.js",
+    "./codemirror.mjs": "./dist/codemirror.mjs",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "src/",
+    "dist/",
+    "README.md",
+    "LICENSE",
+    "NOTICE"
+  ],
+  "scripts": {
+    "generate": "node src/cli-generate.js",
+    "test": "node test/run.js"
+  },
+  "peerDependencies": {
+    "@codemirror/language": "^6.0.0",
+    "@codemirror/legacy-modes": "^6.0.0",
+    "@lezer/highlight": "^1.0.0"
+  },
+  "peerDependenciesMeta": {
+    "@codemirror/language": {
+      "optional": true
+    },
+    "@codemirror/legacy-modes": {
+      "optional": true
+    },
+    "@lezer/highlight": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "@codemirror/language": "^6.12.0",
+    "@codemirror/legacy-modes": "^6.5.2",
+    "@codemirror/state": "^6.5.0",
+    "@lezer/highlight": "^1.2.1",
+    "highlight.js": "^11.11.1",
+    "prismjs": "^1.30.0",
+    "vscode-oniguruma": "^2.0.1",
+    "vscode-textmate": "^9.2.0"
+  }
+}

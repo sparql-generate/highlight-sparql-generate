@@ -1,0 +1,51 @@
+# CodeMirror
+0 "#" comment
+48 "\n" -
+49 "P" keyword
+55 " " -
+56 "e" atom
+59 " " -
+60 "<" atom
+84 "\n" -
+86 "P" keyword
+93 " " -
+94 "{" bracket
+95 "\n" -
+98 "P" keyword
+105 " " -
+106 "e" atom
+115 "(" bracket
+116 "?" variableName.local
+121 "," bracket
+122 " " -
+123 "\"" string
+130 "{" sgInterpolation
+131 "?" variableName.local
+136 "}" sgInterpolation
+137 "\"" string
+138 ")" bracket
+139 " " -
+140 "." bracket
+141 "\n" -
+142 "}" bracket
+143 "\n" -
+144 "S" keyword
+150 " " -
+151 "<" atom
+181 " " -
+182 "A" keyword
+184 " " -
+185 "?" variableName.local
+191 "\n" -
+192 "W" keyword
+197 " " -
+198 "{" bracket
+199 " " -
+200 "?" variableName.local
+205 " " -
+206 "e" atom
+213 " " -
+214 "?" variableName.local
+219 " " -
+220 "}" bracket
+221 "\n" -

@@ -1,0 +1,9 @@
+# Long strings. Last in its own file: Pygments' SparqlLexer runs a long string
+# to the end of the input (see the parity test).
+PREFIX ex: <http://example.org/ns#>
+
+SELECT ?s WHERE {
+  ?s ex:summary """A long
+string over two lines""" .
+  ?s ex:other '''single long''' .
+}

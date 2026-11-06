@@ -1,0 +1,39 @@
+# CodeMirror
+0 "#" comment
+78 "\n" -
+79 "#" comment
+127 "\n" -
+128 "P" keyword
+134 " " -
+135 "e" atom
+138 " " -
+139 "<" atom
+163 "\n" -
+165 "S" keyword
+171 " " -
+172 "?" variableName.local
+174 " " -
+175 "W" keyword
+180 " " -
+181 "{" bracket
+182 "\n" -
+185 "?" variableName.local
+187 " " -
+188 "e" atom
+198 " " -
+199 "\"" string
+208 "\n" -
+209 "s" string
+233 " " -
+234 "." bracket
+235 "\n" -
+238 "?" variableName.local
+240 " " -
+241 "e" atom
+249 " " -
+250 "'" string
+267 " " -
+268 "." bracket
+269 "\n" -
+270 "}" bracket
+271 "\n" -

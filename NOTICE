@@ -1,0 +1,7 @@
+highlight-sparql-generate
+Copyright 2026 MINES Saint-Étienne
+
+Licensed under the Apache License, Version 2.0 (see LICENSE).
+
+This product vendors third-party grammars in vendor/; their licences are
+listed in vendor/README.md.

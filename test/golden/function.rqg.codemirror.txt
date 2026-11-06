@@ -1,0 +1,48 @@
+# CodeMirror
+0 "#" comment
+42 "\n" -
+43 "P" keyword
+49 " " -
+50 "f" atom
+54 " " -
+55 "<" atom
+92 "\n" -
+93 "P" keyword
+99 " " -
+100 "e" atom
+103 " " -
+104 "<" atom
+128 "\n" -
+130 "F" keyword
+138 " " -
+139 "e" atom
+147 "(" bracket
+148 "?" variableName.local
+154 "," bracket
+155 " " -
+156 "?" variableName.local
+161 ")" bracket
+162 " " -
+163 "{" bracket
+164 "\n" -
+167 "C" builtin
+173 "(" bracket
+174 "\"" string
+182 "," bracket
+183 " " -
+184 "?" variableName.local
+190 "," bracket
+191 " " -
+192 "\"" string
+195 "," bracket
+196 " " -
+197 "U" builtin
+202 "(" bracket
+203 "?" variableName.local
+208 ")" bracket
+210 " " -
+211 "\"" string
+214 ")" bracket
+215 "\n" -
+216 "}" bracket
+217 "\n" -

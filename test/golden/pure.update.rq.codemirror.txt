@@ -1,0 +1,149 @@
+# CodeMirror
+0 "#" comment
+20 "\n" -
+21 "P" keyword
+27 " " -
+28 "e" atom
+31 " " -
+32 "<" atom
+56 "\n" -
+58 "I" keyword
+64 " " -
+65 "D" keyword
+69 " " -
+70 "{" bracket
+71 " " -
+72 "G" keyword
+77 " " -
+78 "<" atom
+100 " " -
+101 "{" bracket
+102 " " -
+103 "e" atom
+107 " " -
+108 "e" atom
+112 " " -
+113 "\"" string
+116 " " -
+117 "}" bracket
+118 " " -
+119 "}" bracket
+120 " " -
+121 ";" bracket
+122 "\n" -
+123 "D" keyword
+129 " " -
+130 "{" bracket
+131 " " -
+132 "?" variableName.local
+134 " " -
+135 "e" atom
+141 " " -
+142 "?" variableName.local
+144 " " -
+145 "}" bracket
+146 " " -
+147 "I" keyword
+153 " " -
+154 "{" bracket
+155 " " -
+156 "?" variableName.local
+158 " " -
+159 "e" atom
+165 " " -
+166 "?" variableName.local
+168 " " -
+169 "}" bracket
+170 " " -
+171 "W" keyword
+176 " " -
+177 "{" bracket
+178 " " -
+179 "?" variableName.local
+181 " " -
+182 "e" atom
+188 " " -
+189 "?" variableName.local
+191 " " -
+192 "}" bracket
+193 " " -
+194 ";" bracket
+195 "\n" -
+196 "D" keyword
+202 " " -
+203 "W" keyword
+208 " " -
+209 "{" bracket
+210 " " -
+211 "?" variableName.local
+213 " " -
+214 "e" atom
+221 " " -
+222 "?" variableName.local
+224 " " -
+225 "}" bracket
+226 " " -
+227 ";" bracket
+228 "\n" -
+229 "L" keyword
+233 " " -
+234 "S" keyword
+240 " " -
+241 "<" atom
+270 " " -
+271 "I" keyword
+275 " " -
+276 "G" keyword
+281 " " -
+282 "<" atom
+304 " " -
+305 ";" bracket
+306 "\n" -
+307 "C" keyword
+312 " " -
+313 "D" variable
+320 " " -
+321 ";" bracket
+322 "\n" -
+323 "D" keyword
+327 " " -
+328 "N" keyword
+333 " " -
+334 ";" bracket
+335 "\n" -
+336 "C" keyword
+340 " " -
+341 "<" atom
+363 " " -
+364 "T" keyword
+366 " " -
+367 "D" variable
+374 " " -
+375 ";" bracket
+376 "\n" -
+377 "M" keyword
+381 " " -
+382 "D" variable
+389 " " -
+390 "T" keyword
+392 " " -
+393 "<" atom
+415 " " -
+416 ";" bracket
+417 "\n" -
+418 "A" keyword
+421 " " -
+422 "<" atom
+444 " " -
+445 "T" keyword
+447 " " -
+448 "<" atom
+470 " " -
+471 ";" bracket
+472 "\n" -
+473 "C" keyword
+479 " " -
+480 "G" keyword
+485 " " -
+486 "<" atom
+508 "\n" -

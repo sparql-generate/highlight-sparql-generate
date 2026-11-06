@@ -1,0 +1,108 @@
+# Pygments
+0 "#" Comment
+40 "\n" Text
+41 "P" Keyword
+47 " " Text
+48 "e" Name.Namespace
+50 ":" Punctuation
+51 " " Text
+52 "<" Name.Label
+76 "\n" Text
+77 "P" Keyword
+83 " " Text
+84 ":" Punctuation
+85 " " Text
+86 "<" Name.Label
+115 "\n" Text
+117 "C" Keyword
+126 " " Text
+127 "{" Punctuation
+128 "\n" Text
+131 "?" Name.Variable
+133 " " Text
+134 "e" Name.Namespace
+136 ":" Punctuation
+137 "e" Name.Tag
+140 " " Text
+141 "\"" Literal.String
+146 "t" Literal.String.Escape
+147 " " Literal.String
+154 "\"" Literal.String.Escape
+155 " " Literal.String
+165 " " Text
+166 ";" Punctuation
+167 "\n" Text
+173 "e" Name.Namespace
+175 ":" Punctuation
+176 "s" Name.Tag
+182 " " Text
+183 "'" Literal.String
+198 " " Text
+199 ";" Punctuation
+200 "\n" Text
+206 ":" Punctuation
+207 "l" Name.Tag
+212 " " Text
+213 ":" Punctuation
+214 "v" Name.Tag
+219 " " Text
+220 ";" Punctuation
+221 "\n" Text
+227 "e" Name.Namespace
+229 ":" Punctuation
+230 "e" Name.Tag
+235 " " Text
+236 "\"" Literal.String
+238 " " Text
+239 "." Punctuation
+240 "\n" Text
+241 "}" Punctuation
+242 "\n" Text
+243 "W" Keyword
+248 " " Text
+249 "{" Punctuation
+250 "\n" Text
+253 "?" Name.Variable
+255 " " Text
+256 "e" Name.Namespace
+258 ":" Punctuation
+259 "n" Name.Tag
+263 " " Text
+264 "?" Name.Variable
+269 " " Text
+270 "." Punctuation
+271 "\n" Text
+274 "F" Keyword
+280 " " Text
+281 "(" Punctuation
+282 "l" Name.Function
+293 "(" Punctuation
+294 "l" Name.Function
+298 "(" Punctuation
+299 "?" Name.Variable
+304 ")" Punctuation
+306 " " Text
+307 "\"" Literal.String
+311 ")" Punctuation
+312 " " Text
+313 "&" Operator
+315 " " Text
+316 "i" Name.Function
+321 "(" Punctuation
+322 "?" Name.Variable
+324 ")" Punctuation
+325 " " Text
+326 "&" Operator
+328 " " Text
+329 "S" Name.Function
+335 "(" Punctuation
+336 "?" Name.Variable
+341 ")" Punctuation
+342 " " Text
+343 ">" Operator
+344 " " Text
+345 "3" Literal.Number.Integer
+346 ")" Punctuation
+347 "\n" Text
+348 "}" Punctuation
+349 "\n" Text

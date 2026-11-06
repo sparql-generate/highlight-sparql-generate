@@ -1,0 +1,14 @@
+# CONSTRUCT, ASK-style filters, escapes.
+PREFIX ex: <http://example.org/ns#>
+PREFIX : <http://example.org/default#>
+
+CONSTRUCT {
+  ?s ex:esc "tab\t quote\" unicodeé" ;
+     ex:single 'single quotes' ;
+     :local :value ;
+     ex:empty "" .
+}
+WHERE {
+  ?s ex:name ?name .
+  FILTER (langMatches(lang(?name), "en") && isIRI(?s) && STRLEN(?name) > 3)
+}

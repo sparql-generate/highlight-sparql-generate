@@ -1,0 +1,8 @@
+# PERFORM: side effects, with sub-PERFORM calls.
+PREFIX ex: <http://example.org/ns#>
+
+PERFORM {
+  PERFORM ex:notify(?user, "Hello {?name}") .
+}
+SOURCE <http://example.org/users.csv> AS ?users
+WHERE { ?user ex:name ?name }

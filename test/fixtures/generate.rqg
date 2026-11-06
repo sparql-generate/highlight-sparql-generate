@@ -1,0 +1,44 @@
+# GENERATE: templates, binding clauses, sub-queries, expression nodes.
+BASE <http://example.org/>
+PREFIX fun: <http://w3id.org/sparql-generate/fn/>
+PREFIX iter: <http://w3id.org/sparql-generate/iter/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX ex: <http://example.org/ns#>
+
+GENERATE <http://example.org/query#main> (?city, $limit) {
+  <city/{ fun:CSSPath(?page, "h1/text()") }> a ex:City ;
+    ex:name "{ ?name }"@en ;
+    ex:label 'City of {?name}' ;
+    ex:code "{ STR(?code) }"^^xsd:string ;
+    ex:typed "{?v}"^^<http://example.org/dt/{?kind}> ;
+    ex:escaped "a literal \{ brace \} and {?x}" ;
+    ex:nested "<{ CONCAT(?a, "-{?b}-", 'c') }>" ;
+    ex:test "{ IF(EXISTS { ?s ?p ?o }, "yes", "no") }" ;
+    ex:pop ?{ ?population * 1000 } ;
+    ex:density ${ ?population / ?area } ;
+    ex:list LIST( ?member ) ;
+    ex:plain "no expression" , <http://example.org/plain> .
+  <{?iri}> ex:p _:b ; ex:q [ ex:r ?o ] .
+
+  GENERATE ex:sub(?city, "label") .
+  GENERATE {
+    ?s ex:long """multi-line
+template {?x} with "quotes" and ""two""
+""" .
+    ?s ex:single '''also {?y}''' .
+  }
+  ITERATOR iter:Split(?list, ",") AS ?member
+  WHERE { ?s ex:p ?o } .
+}
+FROM GENERATE ex:graph(?city) NAMED <http://example.org/graph> .
+SOURCE <http://example.org/data.json> ACCEPT <http://www.iana.org/assignments/media-types/application/json> AS ?source
+SOURCE ?url ACCEPT ?type AS ?page
+ITERATOR iter:JSONPath(?source, "$.cities[*]", "$.name", "$.code") AS ?city ?name ?code
+BIND (fun:JSONPath(?city, "$.area") AS ?area)
+WHERE {
+  ?city ex:population ?population .
+  FILTER(?population > 10 && regex(?name, "^A"))
+}
+ORDER BY ?name
+LIMIT 10
+EXPRESSIONS (fun:bnode(STR(?name)) AS ?bnode)

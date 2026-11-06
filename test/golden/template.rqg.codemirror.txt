@@ -1,0 +1,192 @@
+# CodeMirror
+0 "#" comment
+59 "\n" -
+60 "P" keyword
+66 " " -
+67 "s" atom
+70 " " -
+71 "<" atom
+108 "\n" -
+109 "P" keyword
+115 " " -
+116 "f" atom
+120 " " -
+121 "<" atom
+158 "\n" -
+159 "P" keyword
+165 " " -
+166 "e" atom
+169 " " -
+170 "<" atom
+194 "\n" -
+196 "T" keyword
+204 " " -
+205 "<" atom
+232 " " -
+233 "(" bracket
+234 "?" variableName.local
+240 ")" bracket
+241 " " -
+242 "{" bracket
+243 "\n" -
+246 "b" keyword
+252 " " -
+253 "=" operator
+254 " " -
+255 "\"" string
+271 " " -
+272 ";" bracket
+273 "\n" -
+276 "\"" string
+281 "{" sgInterpolation
+282 "?" variableName.local
+288 "}" sgInterpolation
+289 "<" string
+297 "\n" -
+300 "B" keyword
+303 " " -
+304 "{" bracket
+305 "\n" -
+310 "\"" string
+316 " " -
+317 "s" atom
+322 "(" bracket
+324 "\n" -
+329 "G" keyword
+334 " " -
+335 "D" keyword
+343 " " -
+344 "{" bracket
+345 "\n" -
+352 "\"" string
+357 "{" sgInterpolation
+358 " " -
+359 "U" builtin
+364 "(" bracket
+365 "?" variableName.local
+371 ")" bracket
+372 " " -
+373 "}" sgInterpolation
+374 "<" string
+380 "\n" -
+387 ";" bracket
+388 " " -
+389 "S" variable
+398 " " -
+399 "=" operator
+400 " " -
+401 "\"" string
+405 "\n" -
+410 "}" bracket
+411 "\n" -
+416 "\"" string
+423 "\n" -
+426 "}" bracket
+427 "\n" -
+430 "F" keyword
+436 " " -
+437 "{" bracket
+438 " " -
+439 "\"" string
+458 " " -
+459 "?" variableName.local
+465 " " -
+466 "C" builtin
+471 "(" bracket
+472 "?" variableName.local
+477 ")" bracket
+478 " " -
+479 "}" bracket
+480 "\n" -
+483 "T" keyword
+491 " " -
+492 "e" atom
+498 "(" bracket
+499 "?" variableName.local
+504 "," bracket
+505 " " -
+506 "?" variableName.local
+512 ")" bracket
+513 " " -
+514 "." bracket
+515 "\n" -
+518 "T" keyword
+526 " " -
+527 "{" bracket
+528 " " -
+529 "\"" string
+533 "{" sgInterpolation
+534 "?" variableName.local
+540 "}" sgInterpolation
+541 "<" string
+546 " " -
+547 "}" bracket
+548 " " -
+549 "W" keyword
+554 " " -
+555 "{" bracket
+556 " " -
+557 "?" variableName.local
+562 " " -
+563 "e" atom
+571 " " -
+572 "?" variableName.local
+578 " " -
+579 "}" bracket
+580 " " -
+581 "." bracket
+582 "\n" -
+585 "\"" string
+588 "\n" -
+589 "L" string
+600 "{" sgInterpolation
+601 "?" variableName.local
+607 "}" sgInterpolation
+608 " " string
+640 "\n" -
+641 "\"" string
+644 "\n" -
+647 ";" bracket
+648 " " -
+649 "s" variable
+658 " " -
+659 "=" operator
+660 " " -
+661 "\"" string
+665 "\n" -
+668 ";" bracket
+669 " " -
+670 "a" keyword
+675 " " -
+676 "=" operator
+677 " " -
+678 "\"" string
+694 "\n" -
+695 "}" bracket
+696 "\n" -
+697 "W" keyword
+702 " " -
+703 "{" bracket
+704 "\n" -
+707 "?" variableName.local
+712 " " -
+713 "a" builtin
+714 " " -
+715 "e" atom
+722 " " -
+723 ";" bracket
+724 " " -
+725 "e" atom
+733 " " -
+734 "?" variableName.local
+740 " " -
+741 "." bracket
+742 "\n" -
+743 "}" bracket
+744 "\n" -
+745 "O" keyword
+750 " " -
+751 "B" keyword
+753 " " -
+754 "?" variableName.local
+760 "\n" -

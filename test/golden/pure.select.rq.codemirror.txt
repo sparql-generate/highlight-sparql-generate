@@ -1,0 +1,426 @@
+# CodeMirror
+0 "#" comment
+74 "\n" -
+75 "#" comment
+148 "\n" -
+149 "B" keyword
+153 " " -
+154 "<" atom
+175 "\n" -
+176 "P" keyword
+182 " " -
+183 "e" atom
+186 " " -
+187 "<" atom
+211 "\n" -
+212 "P" keyword
+218 " " -
+219 "s" atom
+226 " " -
+227 "<" atom
+255 "\n" -
+256 "P" keyword
+262 " " -
+263 "x" atom
+267 " " -
+268 "<" atom
+303 "\n" -
+304 "P" keyword
+310 " " -
+311 "r" atom
+315 " " -
+316 "<" atom
+361 "\n" -
+363 "S" keyword
+369 " " -
+370 "D" keyword
+378 " " -
+379 "?" variableName.local
+386 " " -
+387 "?" variableName.local
+392 " " -
+393 "$" variableName.local
+402 " " -
+403 "(" bracket
+404 "C" builtin
+409 "(" bracket
+410 "D" keyword
+418 " " -
+419 "?" variableName.local
+424 ")" bracket
+425 " " -
+426 "A" keyword
+428 " " -
+429 "?" variableName.local
+431 ")" bracket
+432 "\n" -
+440 "(" bracket
+441 "G" builtin
+453 "(" bracket
+454 "?" variableName.local
+460 " " -
+461 ";" bracket
+462 " " -
+463 "S" variable
+472 "=" operator
+473 "\"" string
+477 ")" bracket
+478 " " -
+479 "A" keyword
+481 " " -
+482 "?" variableName.local
+489 ")" bracket
+490 "\n" -
+491 "F" keyword
+495 " " -
+496 "<" atom
+522 "\n" -
+523 "F" keyword
+527 " " -
+528 "N" keyword
+533 " " -
+534 "<" atom
+560 "\n" -
+561 "W" keyword
+566 " " -
+567 "{" bracket
+568 "\n" -
+571 "?" variableName.local
+578 " " -
+579 "a" builtin
+580 " " -
+581 "e" atom
+590 " " -
+591 ";" bracket
+592 "\n" -
+597 "e" atom
+608 " " -
+609 "?" variableName.local
+618 " " -
+619 ";" bracket
+620 "\n" -
+625 "e" atom
+632 " " -
+633 "?" variableName.local
+638 " " -
+639 ";" bracket
+640 "\n" -
+645 "s" atom
+658 " " -
+659 "\"" string
+664 " " -
+665 ";" bracket
+666 "\n" -
+671 "e" atom
+677 " " -
+678 "\"" string
+688 " " -
+689 "," bracket
+690 " " -
+691 "'" string
+701 "@" meta
+704 " " -
+705 "," bracket
+706 " " -
+707 "\"" string
+711 "^" operator
+713 "x" atom
+724 " " -
+725 "." bracket
+726 "\n" -
+729 "?" variableName.local
+734 " " -
+735 "e" atom
+743 " " -
+744 "?" variableName.local
+748 " " -
+749 ";" bracket
+750 " " -
+751 "e" atom
+755 "/" operator
+756 "e" atom
+760 "*" operator
+761 " " -
+762 "?" variableName.local
+764 " " -
+765 ";" bracket
+766 " " -
+767 "^" operator
+768 "e" atom
+778 " " -
+779 "?" variableName.local
+781 " " -
+782 ";" bracket
+783 " " -
+784 "!" operator
+785 "r" atom
+793 " " -
+794 "?" variableName.local
+796 " " -
+797 "." bracket
+798 "\n" -
+801 "?" variableName.local
+806 " " -
+807 "e" atom
+815 " " -
+816 "?" variableName.local
+822 " " -
+823 "." bracket
+824 "\n" -
+827 "O" keyword
+835 " " -
+836 "{" bracket
+837 " " -
+838 "?" variableName.local
+843 " " -
+844 "e" atom
+853 " " -
+854 "?" variableName.local
+856 " " -
+857 "." bracket
+858 " " -
+859 "F" keyword
+865 "(" bracket
+866 "?" variableName.local
+868 " " -
+869 "<" operator
+870 " " -
+871 "1" variable
+873 " " -
+874 "&" operator
+876 " " -
+877 "?" variableName.local
+879 " " -
+880 ">" operator
+882 " " -
+883 "2" variable
+884 "." bracket
+885 "5" variable
+888 ")" bracket
+889 " " -
+890 "}" bracket
+891 "\n" -
+894 "{" bracket
+895 " " -
+896 "?" variableName.local
+901 " " -
+902 "e" atom
+906 " " -
+907 "?" variableName.local
+909 " " -
+910 "}" bracket
+911 " " -
+912 "U" keyword
+917 " " -
+918 "{" bracket
+919 " " -
+920 "?" variableName.local
+925 " " -
+926 "e" atom
+930 " " -
+931 "?" variableName.local
+933 " " -
+934 "}" bracket
+935 "\n" -
+938 "M" keyword
+943 " " -
+944 "{" bracket
+945 " " -
+946 "?" variableName.local
+951 " " -
+952 "e" atom
+961 " " -
+962 "t" keyword
+966 " " -
+967 "}" bracket
+968 "\n" -
+971 "B" builtin
+975 " " -
+976 "(" bracket
+977 "C" builtin
+983 "(" bracket
+984 "S" builtin
+987 "(" bracket
+988 "?" variableName.local
+990 ")" bracket
+992 " " -
+993 "\"" string
+996 "," bracket
+997 " " -
+998 "L" builtin
+1003 "(" bracket
+1004 "?" variableName.local
+1010 ")" bracket
+1012 " " -
+1013 "A" keyword
+1015 " " -
+1016 "?" variableName.local
+1020 ")" bracket
+1021 "\n" -
+1024 "V" keyword
+1030 " " -
+1031 "(" bracket
+1032 "?" variableName.local
+1037 " " -
+1038 "?" variableName.local
+1043 ")" bracket
+1044 " " -
+1045 "{" bracket
+1046 " " -
+1047 "(" bracket
+1048 "e" atom
+1052 " " -
+1053 "1" variable
+1054 ")" bracket
+1055 " " -
+1056 "(" bracket
+1057 "U" keyword
+1062 " " -
+1063 "f" keyword
+1068 ")" bracket
+1069 " " -
+1070 "}" bracket
+1071 "\n" -
+1074 "F" keyword
+1080 " " -
+1081 "N" keyword
+1084 " " -
+1085 "E" builtin
+1091 " " -
+1092 "{" bracket
+1093 " " -
+1094 "?" variableName.local
+1099 " " -
+1100 "e" atom
+1110 " " -
+1111 "[" bracket
+1113 " " -
+1114 "}" bracket
+1115 "\n" -
+1118 "F" keyword
+1124 " " -
+1125 "(" bracket
+1126 "r" builtin
+1131 "(" bracket
+1132 "?" variableName.local
+1138 "," bracket
+1139 " " -
+1140 "\"" string
+1144 "," bracket
+1145 " " -
+1146 "\"" string
+1149 ")" bracket
+1150 " " -
+1151 "|" operator
+1153 " " -
+1154 "?" variableName.local
+1156 " " -
+1157 "!" operator
+1159 " " -
+1160 "-" operator
+1161 "3" variable
+1162 " " -
+1163 "|" operator
+1165 " " -
+1166 "?" variableName.local
+1168 " " -
+1169 "=" operator
+1170 " " -
+1171 "+" operator
+1172 "0" variable
+1173 "." bracket
+1174 "5" variable
+1175 ")" bracket
+1176 "\n" -
+1179 "?" variableName.local
+1184 " " -
+1185 "e" atom
+1192 " " -
+1193 "(" bracket
+1194 " " -
+1195 "1" variable
+1196 " " -
+1197 "2" variable
+1198 " " -
+1199 "_" variable
+1200 ":" atom
+1202 " " -
+1203 ")" bracket
+1204 " " -
+1205 "." bracket
+1206 "\n" -
+1209 "S" keyword
+1216 " " -
+1217 "S" keyword
+1223 " " -
+1224 "<" atom
+1251 " " -
+1252 "{" bracket
+1253 " " -
+1254 "?" variableName.local
+1259 " " -
+1260 "e" atom
+1264 " " -
+1265 "?" variableName.local
+1267 " " -
+1268 "}" bracket
+1269 "\n" -
+1272 "G" keyword
+1277 " " -
+1278 "?" variableName.local
+1280 " " -
+1281 "{" bracket
+1282 " " -
+1283 "?" variableName.local
+1288 " " -
+1289 "e" atom
+1294 " " -
+1295 "?" variableName.local
+1297 " " -
+1298 "}" bracket
+1299 "\n" -
+1300 "}" bracket
+1301 "\n" -
+1302 "G" keyword
+1307 " " -
+1308 "B" keyword
+1310 " " -
+1311 "?" variableName.local
+1318 " " -
+1319 "?" variableName.local
+1324 "\n" -
+1325 "H" keyword
+1331 " " -
+1332 "(" bracket
+1333 "C" builtin
+1338 "(" bracket
+1339 "?" variableName.local
+1344 ")" bracket
+1345 " " -
+1346 ">" operator
+1347 " " -
+1348 "1" variable
+1349 ")" bracket
+1350 "\n" -
+1351 "O" keyword
+1356 " " -
+1357 "B" keyword
+1359 " " -
+1360 "D" keyword
+1364 "(" bracket
+1365 "?" variableName.local
+1367 ")" bracket
+1368 " " -
+1369 "A" keyword
+1372 "(" bracket
+1373 "?" variableName.local
+1380 ")" bracket
+1381 "\n" -
+1382 "L" keyword
+1387 " " -
+1388 "1" variable
+1390 "\n" -
+1391 "O" keyword
+1397 " " -
+1398 "5" variable
+1399 "\n" -

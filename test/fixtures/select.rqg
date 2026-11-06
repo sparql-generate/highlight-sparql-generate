@@ -1,0 +1,12 @@
+# A named, parameterised SELECT, called with iter:call-select.
+PREFIX iter: <http://w3id.org/sparql-generate/iter/>
+PREFIX ex: <http://example.org/ns#>
+
+SELECT ex:people (?min) ?name (COUNT(?pet) AS ?pets)
+WHERE {
+  ?person ex:name ?name ; ex:age ?age .
+  OPTIONAL { ?person ex:pet ?pet }
+  FILTER(?age >= ?min)
+}
+GROUP BY ?name
+HAVING (COUNT(?pet) > 0)

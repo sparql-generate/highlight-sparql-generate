@@ -1,0 +1,52 @@
+# Pygments
+0 "#" Comment
+42 "\n" Text
+43 "P" Keyword
+49 " " Text
+50 "f" Name.Namespace
+53 ":" Punctuation
+54 " " Text
+55 "<" Name.Label
+92 "\n" Text
+93 "P" Keyword
+99 " " Text
+100 "e" Name.Namespace
+102 ":" Punctuation
+103 " " Text
+104 "<" Name.Label
+128 "\n" Text
+130 "F" Keyword
+138 " " Text
+139 "e" Name.Namespace
+141 ":" Punctuation
+142 "g" Name.Tag
+147 "(" Punctuation
+148 "?" Name.Variable
+154 "," Punctuation
+155 " " Text
+156 "?" Name.Variable
+161 ")" Punctuation
+162 " " Text
+163 "{" Punctuation
+164 "\n" Text
+167 "C" Name.Function
+173 "(" Punctuation
+174 "\"" Literal.String
+182 "," Punctuation
+183 " " Text
+184 "?" Name.Variable
+190 "," Punctuation
+191 " " Text
+192 "\"" Literal.String
+195 "," Punctuation
+196 " " Text
+197 "U" Name.Function
+202 "(" Punctuation
+203 "?" Name.Variable
+208 ")" Punctuation
+210 " " Text
+211 "\"" Literal.String
+214 ")" Punctuation
+215 "\n" Text
+216 "}" Punctuation
+217 "\n" Text

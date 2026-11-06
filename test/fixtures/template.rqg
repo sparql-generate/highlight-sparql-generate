@@ -1,0 +1,29 @@
+# TEMPLATE: text output, BOX, FORMAT, GROUP, sub-templates.
+PREFIX st: <http://ns.inria.fr/sparql-template/>
+PREFIX fun: <http://w3id.org/sparql-generate/fn/>
+PREFIX ex: <http://example.org/ns#>
+
+TEMPLATE <http://example.org/report> (?title) {
+  before = "<html><body>\n" ;
+  "<h1>{?title}</h1>\n"
+  BOX {
+    "<ul>" st:nl()
+    GROUP DISTINCT {
+      "<li>{ UCASE(?label) }</li>"
+      ; SEPARATOR = "\n"
+    }
+    "</ul>"
+  }
+  FORMAT { "%s has %d items\n" ?title COUNT(?item) }
+  TEMPLATE ex:row(?item, ?label) .
+  TEMPLATE { "<p>{?label}</p>" } WHERE { ?item ex:label ?label } .
+  """
+Long text, {?title} again, \{ not an expression \}.
+"""
+  ; separator = ", "
+  ; after = "</body></html>"
+}
+WHERE {
+  ?item a ex:Item ; ex:label ?label .
+}
+ORDER BY ?label

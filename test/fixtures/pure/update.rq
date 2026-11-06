@@ -1,0 +1,13 @@
+# SPARQL 1.1 Update.
+PREFIX ex: <http://example.org/ns#>
+
+INSERT DATA { GRAPH <http://example.org/g> { ex:a ex:p "v" } } ;
+DELETE { ?s ex:old ?o } INSERT { ?s ex:new ?o } WHERE { ?s ex:old ?o } ;
+DELETE WHERE { ?s ex:gone ?o } ;
+LOAD SILENT <http://example.org/data.ttl> INTO GRAPH <http://example.org/g> ;
+CLEAR DEFAULT ;
+DROP NAMED ;
+COPY <http://example.org/g> TO DEFAULT ;
+MOVE DEFAULT TO <http://example.org/h> ;
+ADD <http://example.org/g> TO <http://example.org/h> ;
+CREATE GRAPH <http://example.org/i>

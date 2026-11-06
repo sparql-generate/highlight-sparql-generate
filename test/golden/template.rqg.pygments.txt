@@ -1,0 +1,211 @@
+# Pygments
+0 "#" Comment
+59 "\n" Text
+60 "P" Keyword
+66 " " Text
+67 "s" Name.Namespace
+69 ":" Punctuation
+70 " " Text
+71 "<" Name.Label
+108 "\n" Text
+109 "P" Keyword
+115 " " Text
+116 "f" Name.Namespace
+119 ":" Punctuation
+120 " " Text
+121 "<" Name.Label
+158 "\n" Text
+159 "P" Keyword
+165 " " Text
+166 "e" Name.Namespace
+168 ":" Punctuation
+169 " " Text
+170 "<" Name.Label
+194 "\n" Text
+196 "T" Keyword
+204 " " Text
+205 "<" Name.Label
+232 " " Text
+233 "(" Punctuation
+234 "?" Name.Variable
+240 ")" Punctuation
+241 " " Text
+242 "{" Punctuation
+243 "\n" Text
+246 "b" Keyword
+252 " " Text
+253 "=" Operator
+254 " " Text
+255 "\"" Literal.String
+269 "n" Literal.String.Escape
+270 "\"" Literal.String
+271 " " Text
+272 ";" Punctuation
+273 "\n" Text
+276 "\"" Literal.String
+281 "{" Literal.String.Interpol
+282 "?" Name.Variable
+288 "}" Literal.String.Interpol
+289 "<" Literal.String
+295 "n" Literal.String.Escape
+296 "\"" Literal.String
+297 "\n" Text
+300 "B" Keyword
+303 " " Text
+304 "{" Punctuation
+305 "\n" Text
+310 "\"" Literal.String
+316 " " Text
+317 "s" Name.Namespace
+319 ":" Punctuation
+320 "n" Name.Tag
+322 "(" Punctuation
+324 "\n" Text
+329 "G" Keyword
+334 " " Text
+335 "D" Keyword
+343 " " Text
+344 "{" Punctuation
+345 "\n" Text
+352 "\"" Literal.String
+357 "{" Literal.String.Interpol
+358 " " Text
+359 "U" Name.Function
+364 "(" Punctuation
+365 "?" Name.Variable
+371 ")" Punctuation
+372 " " Text
+373 "}" Literal.String.Interpol
+374 "<" Literal.String
+380 "\n" Text
+387 ";" Punctuation
+388 " " Text
+389 "S" Name.Function
+398 " " Text
+399 "=" Operator
+400 " " Text
+401 "\"" Literal.String
+403 "n" Literal.String.Escape
+404 "\"" Literal.String
+405 "\n" Text
+410 "}" Punctuation
+411 "\n" Text
+416 "\"" Literal.String
+423 "\n" Text
+426 "}" Punctuation
+427 "\n" Text
+430 "F" Keyword
+436 " " Text
+437 "{" Punctuation
+438 " " Text
+439 "\"" Literal.String
+456 "n" Literal.String.Escape
+457 "\"" Literal.String
+458 " " Text
+459 "?" Name.Variable
+465 " " Text
+466 "C" Name.Function
+471 "(" Punctuation
+472 "?" Name.Variable
+477 ")" Punctuation
+478 " " Text
+479 "}" Punctuation
+480 "\n" Text
+483 "T" Keyword
+491 " " Text
+492 "e" Name.Namespace
+494 ":" Punctuation
+495 "r" Name.Tag
+498 "(" Punctuation
+499 "?" Name.Variable
+504 "," Punctuation
+505 " " Text
+506 "?" Name.Variable
+512 ")" Punctuation
+513 " " Text
+514 "." Punctuation
+515 "\n" Text
+518 "T" Keyword
+526 " " Text
+527 "{" Punctuation
+528 " " Text
+529 "\"" Literal.String
+533 "{" Literal.String.Interpol
+534 "?" Name.Variable
+540 "}" Literal.String.Interpol
+541 "<" Literal.String
+546 " " Text
+547 "}" Punctuation
+548 " " Text
+549 "W" Keyword
+554 " " Text
+555 "{" Punctuation
+556 " " Text
+557 "?" Name.Variable
+562 " " Text
+563 "e" Name.Namespace
+565 ":" Punctuation
+566 "l" Name.Tag
+571 " " Text
+572 "?" Name.Variable
+578 " " Text
+579 "}" Punctuation
+580 " " Text
+581 "." Punctuation
+582 "\n" Text
+585 "\"" Literal.String
+600 "{" Literal.String.Interpol
+601 "?" Name.Variable
+607 "}" Literal.String.Interpol
+608 " " Literal.String
+617 "{" Literal.String.Escape
+618 " " Literal.String
+638 "}" Literal.String.Escape
+639 "." Literal.String
+644 "\n" Text
+647 ";" Punctuation
+648 " " Text
+649 "s" Name.Function
+658 " " Text
+659 "=" Operator
+660 " " Text
+661 "\"" Literal.String
+665 "\n" Text
+668 ";" Punctuation
+669 " " Text
+670 "a" Keyword
+675 " " Text
+676 "=" Operator
+677 " " Text
+678 "\"" Literal.String
+694 "\n" Text
+695 "}" Punctuation
+696 "\n" Text
+697 "W" Keyword
+702 " " Text
+703 "{" Punctuation
+704 "\n" Text
+707 "?" Name.Variable
+712 " " Text
+713 "a" Keyword
+714 " " Text
+715 "e" Name.Namespace
+717 ":" Punctuation
+718 "I" Name.Tag
+722 " " Text
+723 ";" Punctuation
+724 " " Text
+725 "e" Name.Namespace
+727 ":" Punctuation
+728 "l" Name.Tag
+733 " " Text
+734 "?" Name.Variable
+740 " " Text
+741 "." Punctuation
+742 "\n" Text
+743 "}" Punctuation
+744 "\n" Text
+745 "O" Keyword
+753 " " Text
+754 "?" Name.Variable
+760 "\n" Text

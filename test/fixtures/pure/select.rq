@@ -1,0 +1,36 @@
+# Plain SPARQL 1.1: SPARQL-Generate must colour it exactly as SPARQL does.
+# Words such as generate, template, source or list are not keywords here.
+BASE <http://example.org/>
+PREFIX ex: <http://example.org/ns#>
+PREFIX source: <http://example.org/source#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+SELECT DISTINCT ?source ?list $generate (COUNT(DISTINCT ?item) AS ?n)
+       (GROUP_CONCAT(?label ; SEPARATOR=", ") AS ?labels)
+FROM <http://example.org/graph>
+FROM NAMED <http://example.org/named>
+WHERE {
+  ?source a ex:Source ;
+    ex:template ?template ;
+    ex:list ?list ;
+    source:format "csv" ;
+    ex:box "template" , 'iterator'@en , "42"^^xsd:integer .
+  ?item ex:a.box ?box ; ex:p/ex:q* ?r ; ^ex:inverse ?i ; !rdf:type ?t .
+  ?item ex:label ?label .
+  OPTIONAL { ?item ex:weight ?w . FILTER(?w < 10 && ?w >= 2.5e0) }
+  { ?item ex:x ?x } UNION { ?item ex:y ?x }
+  MINUS { ?item ex:hidden true }
+  BIND (CONCAT(STR(?x), "-", LCASE(?label)) AS ?key)
+  VALUES (?kind ?flag) { (ex:a 1) (UNDEF false) }
+  FILTER NOT EXISTS { ?item ex:deleted [] }
+  FILTER (regex(?label, "^A", "i") || ?x != -3 || ?y = +0.5)
+  ?item ex:coll ( 1 2 _:b ) .
+  SERVICE SILENT <http://example.org/sparql> { ?item ex:z ?z }
+  GRAPH ?g { ?item ex:in ?g }
+}
+GROUP BY ?source ?list
+HAVING (COUNT(?item) > 1)
+ORDER BY DESC(?n) ASC(?source)
+LIMIT 10
+OFFSET 5

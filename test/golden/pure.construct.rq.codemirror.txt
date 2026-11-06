@@ -1,0 +1,93 @@
+# CodeMirror
+0 "#" comment
+40 "\n" -
+41 "P" keyword
+47 " " -
+48 "e" atom
+51 " " -
+52 "<" atom
+76 "\n" -
+77 "P" keyword
+83 " " -
+84 ":" atom
+85 " " -
+86 "<" atom
+115 "\n" -
+117 "C" keyword
+126 " " -
+127 "{" bracket
+128 "\n" -
+131 "?" variableName.local
+133 " " -
+134 "e" atom
+140 " " -
+141 "\"" string
+165 " " -
+166 ";" bracket
+167 "\n" -
+173 "e" atom
+182 " " -
+183 "'" string
+198 " " -
+199 ";" bracket
+200 "\n" -
+206 ":" atom
+212 " " -
+213 ":" atom
+219 " " -
+220 ";" bracket
+221 "\n" -
+227 "e" atom
+235 " " -
+236 "\"" string
+238 " " -
+239 "." bracket
+240 "\n" -
+241 "}" bracket
+242 "\n" -
+243 "W" keyword
+248 " " -
+249 "{" bracket
+250 "\n" -
+253 "?" variableName.local
+255 " " -
+256 "e" atom
+263 " " -
+264 "?" variableName.local
+269 " " -
+270 "." bracket
+271 "\n" -
+274 "F" keyword
+280 " " -
+281 "(" bracket
+282 "l" builtin
+293 "(" bracket
+294 "l" builtin
+298 "(" bracket
+299 "?" variableName.local
+304 ")" bracket
+306 " " -
+307 "\"" string
+311 ")" bracket
+312 " " -
+313 "&" operator
+315 " " -
+316 "i" builtin
+321 "(" bracket
+322 "?" variableName.local
+324 ")" bracket
+325 " " -
+326 "&" operator
+328 " " -
+329 "S" builtin
+335 "(" bracket
+336 "?" variableName.local
+341 ")" bracket
+342 " " -
+343 ">" operator
+344 " " -
+345 "3" variable
+346 ")" bracket
+347 "\n" -
+348 "}" bracket
+349 "\n" -

@@ -1,0 +1,158 @@
+# Pygments
+0 "#" Comment
+20 "\n" Text
+21 "P" Keyword
+27 " " Text
+28 "e" Name.Namespace
+30 ":" Punctuation
+31 " " Text
+32 "<" Name.Label
+56 "\n" Text
+58 "I" Keyword
+69 " " Text
+70 "{" Punctuation
+71 " " Text
+72 "G" Keyword
+77 " " Text
+78 "<" Name.Label
+100 " " Text
+101 "{" Punctuation
+102 " " Text
+103 "e" Name.Namespace
+105 ":" Punctuation
+106 "a" Name.Tag
+107 " " Text
+108 "e" Name.Namespace
+110 ":" Punctuation
+111 "p" Name.Tag
+112 " " Text
+113 "\"" Literal.String
+116 " " Text
+117 "}" Punctuation
+118 " " Text
+119 "}" Punctuation
+120 " " Text
+121 ";" Punctuation
+122 "\n" Text
+123 "D" Keyword
+129 " " Text
+130 "{" Punctuation
+131 " " Text
+132 "?" Name.Variable
+134 " " Text
+135 "e" Name.Namespace
+137 ":" Punctuation
+138 "o" Name.Tag
+141 " " Text
+142 "?" Name.Variable
+144 " " Text
+145 "}" Punctuation
+146 " " Text
+147 "I" Keyword
+153 " " Text
+154 "{" Punctuation
+155 " " Text
+156 "?" Name.Variable
+158 " " Text
+159 "e" Name.Namespace
+161 ":" Punctuation
+162 "n" Name.Tag
+165 " " Text
+166 "?" Name.Variable
+168 " " Text
+169 "}" Punctuation
+170 " " Text
+171 "W" Keyword
+176 " " Text
+177 "{" Punctuation
+178 " " Text
+179 "?" Name.Variable
+181 " " Text
+182 "e" Name.Namespace
+184 ":" Punctuation
+185 "o" Name.Tag
+188 " " Text
+189 "?" Name.Variable
+191 " " Text
+192 "}" Punctuation
+193 " " Text
+194 ";" Punctuation
+195 "\n" Text
+196 "D" Keyword
+208 " " Text
+209 "{" Punctuation
+210 " " Text
+211 "?" Name.Variable
+213 " " Text
+214 "e" Name.Namespace
+216 ":" Punctuation
+217 "g" Name.Tag
+221 " " Text
+222 "?" Name.Variable
+224 " " Text
+225 "}" Punctuation
+226 " " Text
+227 ";" Punctuation
+228 "\n" Text
+229 "L" Keyword
+233 " " Text
+234 "S" Keyword
+240 " " Text
+241 "<" Name.Label
+270 " " Text
+271 "I" Keyword
+275 " " Text
+276 "G" Keyword
+281 " " Text
+282 "<" Name.Label
+304 " " Text
+305 ";" Punctuation
+306 "\n" Text
+307 "C" Keyword
+312 " " Text
+313 "D" Keyword
+320 " " Text
+321 ";" Punctuation
+322 "\n" Text
+323 "D" Keyword
+327 " " Text
+328 "N" Keyword
+333 " " Text
+334 ";" Punctuation
+335 "\n" Text
+336 "C" Keyword
+340 " " Text
+341 "<" Name.Label
+363 " " Text
+364 "T" Keyword
+366 " " Text
+367 "D" Keyword
+374 " " Text
+375 ";" Punctuation
+376 "\n" Text
+377 "M" Keyword
+381 " " Text
+382 "D" Keyword
+389 " " Text
+390 "T" Keyword
+392 " " Text
+393 "<" Name.Label
+415 " " Text
+416 ";" Punctuation
+417 "\n" Text
+418 "A" Keyword
+421 " " Text
+422 "<" Name.Label
+444 " " Text
+445 "T" Keyword
+447 " " Text
+448 "<" Name.Label
+470 " " Text
+471 ";" Punctuation
+472 "\n" Text
+473 "C" Keyword
+479 " " Text
+480 "G" Keyword
+485 " " Text
+486 "<" Name.Label
+508 "\n" Text

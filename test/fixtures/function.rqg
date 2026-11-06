@@ -1,0 +1,7 @@
+# FUNCTION, PERFORM, named SELECT, PRAGMA.
+PREFIX fun: <http://w3id.org/sparql-generate/fn/>
+PREFIX ex: <http://example.org/ns#>
+
+FUNCTION ex:greet(?first, ?last) {
+  CONCAT("Hello ", ?first, " ", UCASE(?last), "!")
+}
