@@ -118,11 +118,15 @@ const R = {
     libraryName: '(?<![\\w?$:.\\-])(?:' + LIBRARY_PREFIXES.join('|') +
         String.raw`):[A-Za-z_](?:[\w.\-]*[\w\-])?`,
 
-    /** the body of an embedded expression, FLAT: no nested braces, string
-     *  literals skipped whole. For the engines that match a whole token with
-     *  one regular expression (Prism); the others keep a real stack. */
+    /** an embedded expression `{ … }` matched by ONE regular expression,
+     *  for the engines that work that way (Prism): string literals skipped
+     *  whole, and at most one level of nested braces
+     *  (`{ IF(EXISTS { ?s ?p ?o }, 1, 0) }`). The other engines keep a real
+     *  stack and nest to any depth. */
     get interpFlat() {
-        return String.raw`\{(?:[^{}"'\n]|"(?:[^"\\\n]|\\.)*"|'(?:[^'\\\n]|\\.)*')*\}`;
+        const str = String.raw`"(?:[^"\\\n]|\\.)*"|'(?:[^'\\\n]|\\.)*'`;
+        const inner = String.raw`\{(?:[^{}"'\n]|` + str + String.raw`)*\}`;
+        return String.raw`\{(?:[^{}"'\n]|` + str + '|' + inner + String.raw`)*\}`;
     },
 };
 
