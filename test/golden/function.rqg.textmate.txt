@@ -1,0 +1,42 @@
+# TextMate
+0 "#" comment.line.number-sign.turtle
+42 "\n" -
+43 "P" keyword.operator.turtle
+50 "f" constant.complex.turtle storage.type.PNAME_NS.turtle
+54 " " -
+55 "<" entity.name.type.iriref.turtle
+92 "\n" -
+93 "P" keyword.operator.turtle
+100 "e" constant.complex.turtle storage.type.PNAME_NS.turtle
+103 " " -
+104 "<" entity.name.type.iriref.turtle
+128 "\n" -
+130 "F" keyword.control.sparql-generate
+138 " " -
+139 "e" constant.complex.turtle storage.type.PNAME_NS.turtle
+142 "g" constant.complex.turtle support.variable.PN_LOCAL.turtle
+147 "(" -
+148 "?" constant.variable.sparql.turtle
+154 "," -
+156 "?" constant.variable.sparql.turtle
+161 ")" -
+167 "C" support.function.sparql
+173 "(" -
+174 "\"" string.quoted.double.turtle punctuation.definition.string.begin.turtle
+175 "H" string.quoted.double.turtle
+181 "\"" string.quoted.double.turtle punctuation.definition.string.end.turtle
+182 "," -
+184 "?" constant.variable.sparql.turtle
+190 "," -
+192 "\"" string.quoted.double.turtle punctuation.definition.string.begin.turtle
+193 " " string.quoted.double.turtle
+194 "\"" string.quoted.double.turtle punctuation.definition.string.end.turtle
+195 "," -
+197 "U" support.function.sparql
+202 "(" -
+203 "?" constant.variable.sparql.turtle
+208 ")" -
+211 "\"" string.quoted.double.turtle punctuation.definition.string.begin.turtle
+212 "!" string.quoted.double.turtle
+213 "\"" string.quoted.double.turtle punctuation.definition.string.end.turtle
+214 ")" -

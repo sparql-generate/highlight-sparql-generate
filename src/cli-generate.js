@@ -4,6 +4,10 @@
  *
  *   pygments-sparql-generate/pygments_sparql_generate/_lexicon.py
  *   dist/codemirror.mjs                       (CodeMirror 6, one ESM file)
+ *   dist/sparql-generate.tmLanguage.json      (TextMate: VS Code, Linguist)
+ *
+ * and, when the sibling repository is there, the copy vendored by the VS Code
+ * extension: ../vscode-sparql-generate/syntaxes/sparql-generate.tmLanguage.json.
  *
  * usage: node src/cli-generate.js [--check]
  *   --check  write nothing; exit 1 if a file in the tree is not the output
@@ -22,7 +26,15 @@ function artefacts() {
             () => require('./python-lexicon').pythonLexicon()],
         ['dist/codemirror.mjs',
             () => require('./codemirror-esm').esmText()],
+        ['dist/sparql-generate.tmLanguage.json',
+            () => require('./textmate').grammarText()],
     ];
+    // The copy vendored by the VS Code extension, when it sits next to us.
+    const sibling = path.join(ROOT, '..', 'vscode-sparql-generate', 'syntaxes');
+    if (fs.existsSync(sibling)) {
+        out.push([path.relative(ROOT, path.join(sibling, 'sparql-generate.tmLanguage.json')),
+            () => require('./textmate').grammarText()]);
+    }
     return out;
 }
 

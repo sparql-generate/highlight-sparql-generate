@@ -1,0 +1,37 @@
+# highlight.js
+0 "#" comment
+42 "\n" -
+43 "P" keyword
+49 " " -
+50 "f" symbol
+54 " " -
+55 "<" link
+92 "\n" -
+93 "P" keyword
+99 " " -
+100 "e" symbol
+103 " " -
+104 "<" link
+128 "\n" -
+130 "F" keyword
+138 " " -
+139 "e" symbol
+147 "(" -
+148 "?" variable
+154 "," -
+156 "?" variable
+161 ")" -
+167 "C" built_in
+173 "(" -
+174 "\"" string
+182 "," -
+184 "?" variable
+190 "," -
+192 "\"" string
+195 "," -
+197 "U" built_in
+202 "(" -
+203 "?" variable
+208 ")" -
+211 "\"" string
+214 ")" -

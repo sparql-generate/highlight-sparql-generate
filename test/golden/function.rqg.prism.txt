@@ -1,0 +1,56 @@
+# Prism
+0 "#" comment
+42 "\n" -
+43 "P" keyword
+49 " " -
+50 "f" prefix
+53 ":" punctuation
+54 " " -
+55 "<" punctuation
+56 "h" url
+91 ">" punctuation
+92 "\n" -
+93 "P" keyword
+99 " " -
+100 "e" prefix
+102 ":" punctuation
+103 " " -
+104 "<" punctuation
+105 "h" url
+127 ">" punctuation
+128 "\n" -
+130 "F" keyword
+138 " " -
+139 "e" prefix
+141 ":" punctuation
+142 "g" local-name
+147 "(" punctuation
+148 "?" variable
+154 "," punctuation
+155 " " -
+156 "?" variable
+161 ")" punctuation
+162 " " -
+163 "{" punctuation
+164 "\n" -
+167 "C" keyword
+173 "(" punctuation
+174 "\"" string
+182 "," punctuation
+183 " " -
+184 "?" variable
+190 "," punctuation
+191 " " -
+192 "\"" string
+195 "," punctuation
+196 " " -
+197 "U" keyword
+202 "(" punctuation
+203 "?" variable
+208 ")" punctuation
+210 " " -
+211 "\"" string
+214 ")" punctuation
+215 "\n" -
+216 "}" punctuation
+217 "\n" -

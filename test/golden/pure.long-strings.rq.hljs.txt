@@ -1,0 +1,29 @@
+# highlight.js
+0 "#" comment
+78 "\n" -
+79 "#" comment
+127 "\n" -
+128 "P" keyword
+134 " " -
+135 "e" symbol
+138 " " -
+139 "<" link
+163 "\n" -
+165 "S" keyword
+171 " " -
+172 "?" variable
+174 " " -
+175 "W" keyword
+180 " " -
+185 "?" variable
+187 " " -
+188 "e" symbol
+198 " " -
+199 "\"" string
+233 " " -
+238 "?" variable
+240 " " -
+241 "e" symbol
+249 " " -
+250 "'" string
+267 " " -

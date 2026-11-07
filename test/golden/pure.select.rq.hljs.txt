@@ -1,0 +1,322 @@
+# highlight.js
+0 "#" comment
+74 "\n" -
+75 "#" comment
+148 "\n" -
+149 "B" keyword
+153 " " -
+154 "<" link
+175 "\n" -
+176 "P" keyword
+182 " " -
+183 "e" symbol
+186 " " -
+187 "<" link
+211 "\n" -
+212 "P" keyword
+218 " " -
+219 "s" symbol
+226 " " -
+227 "<" link
+255 "\n" -
+256 "P" keyword
+262 " " -
+263 "x" symbol
+267 " " -
+268 "<" link
+303 "\n" -
+304 "P" keyword
+310 " " -
+311 "r" symbol
+315 " " -
+316 "<" link
+361 "\n" -
+363 "S" keyword
+369 " " -
+370 "D" keyword
+378 " " -
+379 "?" variable
+386 " " -
+387 "?" variable
+392 " " -
+393 "$" variable
+402 " " -
+404 "C" built_in
+409 "(" -
+410 "D" keyword
+418 " " -
+419 "?" variable
+424 ")" -
+426 "A" keyword
+428 " " -
+429 "?" variable
+431 ")" -
+441 "G" built_in
+453 "(" -
+454 "?" variable
+460 " " -
+463 "S" keyword
+472 "=" operator
+473 "\"" string
+477 ")" -
+479 "A" keyword
+481 " " -
+482 "?" variable
+489 ")" -
+491 "F" keyword
+495 " " -
+496 "<" link
+522 "\n" -
+523 "F" keyword
+527 " " -
+528 "N" keyword
+533 " " -
+534 "<" link
+560 "\n" -
+561 "W" keyword
+566 " " -
+571 "?" variable
+578 " " -
+579 "a" keyword
+580 " " -
+581 "e" symbol
+590 " " -
+597 "e" symbol
+608 " " -
+609 "?" variable
+618 " " -
+625 "e" symbol
+632 " " -
+633 "?" variable
+638 " " -
+645 "s" symbol
+658 " " -
+659 "\"" string
+664 " " -
+671 "e" symbol
+677 " " -
+678 "\"" string
+688 " " -
+691 "'" string
+701 "@" meta
+704 " " -
+707 "\"" string
+711 "^" operator
+713 "x" symbol
+724 " " -
+729 "?" variable
+734 " " -
+735 "e" symbol
+743 " " -
+744 "?" variable
+748 " " -
+751 "e" symbol
+754 "p" -
+755 "/" operator
+756 "e" symbol
+759 "q" -
+760 "*" operator
+761 " " -
+762 "?" variable
+764 " " -
+767 "^" operator
+768 "e" symbol
+778 " " -
+779 "?" variable
+781 " " -
+784 "!" operator
+785 "r" symbol
+793 " " -
+794 "?" variable
+796 " " -
+801 "?" variable
+806 " " -
+807 "e" symbol
+815 " " -
+816 "?" variable
+822 " " -
+827 "O" keyword
+835 " " -
+838 "?" variable
+843 " " -
+844 "e" symbol
+853 " " -
+854 "?" variable
+856 " " -
+859 "F" keyword
+865 "(" -
+866 "?" variable
+868 " " -
+869 "<" operator
+870 " " -
+871 "1" number
+873 " " -
+874 "&" operator
+876 " " -
+877 "?" variable
+879 " " -
+880 ">" operator
+882 " " -
+883 "2" number
+888 ")" -
+896 "?" variable
+901 " " -
+902 "e" symbol
+905 "x" -
+907 "?" variable
+909 " " -
+912 "U" keyword
+917 " " -
+920 "?" variable
+925 " " -
+926 "e" symbol
+929 "y" -
+931 "?" variable
+933 " " -
+938 "M" keyword
+943 " " -
+946 "?" variable
+951 " " -
+952 "e" symbol
+961 " " -
+962 "t" literal
+966 " " -
+971 "B" keyword
+975 " " -
+977 "C" built_in
+983 "(" -
+984 "S" built_in
+987 "(" -
+988 "?" variable
+990 ")" -
+993 "\"" string
+996 "," -
+998 "L" built_in
+1003 "(" -
+1004 "?" variable
+1010 ")" -
+1013 "A" keyword
+1015 " " -
+1016 "?" variable
+1020 ")" -
+1024 "V" keyword
+1030 " " -
+1032 "?" variable
+1037 " " -
+1038 "?" variable
+1043 ")" -
+1048 "e" symbol
+1051 "a" keyword
+1052 " " -
+1053 "1" number
+1054 ")" -
+1057 "U" keyword
+1062 " " -
+1063 "f" literal
+1068 ")" -
+1074 "F" keyword
+1080 " " -
+1081 "N" keyword
+1084 " " -
+1085 "E" keyword
+1091 " " -
+1094 "?" variable
+1099 " " -
+1100 "e" symbol
+1110 " " -
+1118 "F" keyword
+1124 " " -
+1126 "r" built_in
+1131 "(" -
+1132 "?" variable
+1138 "," -
+1140 "\"" string
+1144 "," -
+1146 "\"" string
+1149 ")" -
+1151 "|" operator
+1153 " " -
+1154 "?" variable
+1156 " " -
+1157 "!" operator
+1159 " " -
+1160 "-" number
+1162 " " -
+1163 "|" operator
+1165 " " -
+1166 "?" variable
+1168 " " -
+1169 "=" operator
+1170 " " -
+1171 "+" number
+1175 ")" -
+1179 "?" variable
+1184 " " -
+1185 "e" symbol
+1192 " " -
+1195 "1" number
+1196 " " -
+1197 "2" number
+1198 " " -
+1199 "_" symbol
+1202 " " -
+1209 "S" keyword
+1216 " " -
+1217 "S" keyword
+1223 " " -
+1224 "<" link
+1251 " " -
+1254 "?" variable
+1259 " " -
+1260 "e" symbol
+1263 "z" -
+1265 "?" variable
+1267 " " -
+1272 "G" keyword
+1277 " " -
+1278 "?" variable
+1280 " " -
+1283 "?" variable
+1288 " " -
+1289 "e" symbol
+1294 " " -
+1295 "?" variable
+1297 " " -
+1302 "G" keyword
+1307 " " -
+1308 "B" keyword
+1310 " " -
+1311 "?" variable
+1318 " " -
+1319 "?" variable
+1324 "\n" -
+1325 "H" keyword
+1331 " " -
+1333 "C" built_in
+1338 "(" -
+1339 "?" variable
+1344 ")" -
+1346 ">" operator
+1347 " " -
+1348 "1" number
+1349 ")" -
+1351 "O" keyword
+1356 " " -
+1357 "B" keyword
+1359 " " -
+1360 "D" keyword
+1364 "(" -
+1365 "?" variable
+1367 ")" -
+1369 "A" keyword
+1372 "(" -
+1373 "?" variable
+1380 ")" -
+1382 "L" keyword
+1387 " " -
+1388 "1" number
+1390 "\n" -
+1391 "O" keyword
+1397 " " -
+1398 "5" number
+1399 "\n" -

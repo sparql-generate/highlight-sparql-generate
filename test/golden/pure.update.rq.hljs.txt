@@ -1,0 +1,108 @@
+# highlight.js
+0 "#" comment
+20 "\n" -
+21 "P" keyword
+27 " " -
+28 "e" symbol
+31 " " -
+32 "<" link
+56 "\n" -
+58 "I" keyword
+64 " " -
+65 "D" keyword
+69 " " -
+72 "G" keyword
+77 " " -
+78 "<" link
+100 " " -
+103 "e" symbol
+106 "a" keyword
+107 " " -
+108 "e" symbol
+111 "p" -
+113 "\"" string
+116 " " -
+123 "D" keyword
+129 " " -
+132 "?" variable
+134 " " -
+135 "e" symbol
+141 " " -
+142 "?" variable
+144 " " -
+147 "I" keyword
+153 " " -
+156 "?" variable
+158 " " -
+159 "e" symbol
+165 " " -
+166 "?" variable
+168 " " -
+171 "W" keyword
+176 " " -
+179 "?" variable
+181 " " -
+182 "e" symbol
+188 " " -
+189 "?" variable
+191 " " -
+196 "D" keyword
+202 " " -
+203 "W" keyword
+208 " " -
+211 "?" variable
+213 " " -
+214 "e" symbol
+221 " " -
+222 "?" variable
+224 " " -
+229 "L" keyword
+233 " " -
+234 "S" keyword
+240 " " -
+241 "<" link
+270 " " -
+271 "I" keyword
+275 " " -
+276 "G" keyword
+281 " " -
+282 "<" link
+304 " " -
+307 "C" keyword
+312 " " -
+313 "D" keyword
+320 " " -
+323 "D" keyword
+327 " " -
+328 "N" keyword
+333 " " -
+336 "C" keyword
+340 " " -
+341 "<" link
+363 " " -
+364 "T" keyword
+366 " " -
+367 "D" keyword
+374 " " -
+377 "M" keyword
+381 " " -
+382 "D" keyword
+389 " " -
+390 "T" keyword
+392 " " -
+393 "<" link
+415 " " -
+418 "A" keyword
+421 " " -
+422 "<" link
+444 " " -
+445 "T" keyword
+447 " " -
+448 "<" link
+470 " " -
+473 "C" keyword
+479 " " -
+480 "G" keyword
+485 " " -
+486 "<" link
+508 "\n" -

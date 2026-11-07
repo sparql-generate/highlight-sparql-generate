@@ -1,0 +1,102 @@
+# Prism
+0 "#" comment
+40 "\n" -
+41 "P" keyword
+47 " " -
+48 "e" prefix
+50 ":" punctuation
+51 " " -
+52 "<" punctuation
+53 "h" url
+75 ">" punctuation
+76 "\n" -
+77 "P" keyword
+83 " " -
+84 ":" punctuation
+85 " " -
+86 "<" punctuation
+87 "h" url
+114 ">" punctuation
+115 "\n" -
+117 "C" keyword
+126 " " -
+127 "{" punctuation
+128 "\n" -
+131 "?" variable
+133 " " -
+134 "e" prefix
+136 ":" punctuation
+137 "e" local-name
+140 " " -
+141 "\"" string
+165 " " -
+166 ";" punctuation
+167 "\n" -
+173 "e" prefix
+175 ":" punctuation
+176 "s" local-name
+182 " " -
+183 "'" string
+198 " " -
+199 ";" punctuation
+200 "\n" -
+206 ":" punctuation
+207 "l" local-name
+212 " " -
+213 ":" punctuation
+214 "v" local-name
+219 " " -
+220 ";" punctuation
+221 "\n" -
+227 "e" prefix
+229 ":" punctuation
+230 "e" local-name
+235 " " -
+236 "\"" string
+238 " " -
+239 "." punctuation
+240 "\n" -
+241 "}" punctuation
+242 "\n" -
+243 "W" keyword
+248 " " -
+249 "{" punctuation
+250 "\n" -
+253 "?" variable
+255 " " -
+256 "e" prefix
+258 ":" punctuation
+259 "n" local-name
+263 " " -
+264 "?" variable
+269 " " -
+270 "." punctuation
+271 "\n" -
+274 "F" keyword
+280 " " -
+281 "(" punctuation
+282 "l" keyword
+293 "(" punctuation
+294 "l" keyword
+298 "(" punctuation
+299 "?" variable
+304 ")" punctuation
+306 " " -
+307 "\"" string
+311 ")" punctuation
+312 " " -
+316 "i" keyword
+321 "(" punctuation
+322 "?" variable
+324 ")" punctuation
+325 " " -
+329 "S" keyword
+335 "(" punctuation
+336 "?" variable
+341 ")" punctuation
+342 " " -
+345 "3" number
+346 ")" punctuation
+347 "\n" -
+348 "}" punctuation
+349 "\n" -

@@ -1,0 +1,110 @@
+# TextMate
+0 "#" comment.line.number-sign.turtle
+20 "\n" -
+21 "P" keyword.operator.turtle
+28 "e" constant.complex.turtle storage.type.PNAME_NS.turtle
+31 " " -
+32 "<" entity.name.type.iriref.turtle
+56 "\n" -
+58 "I" keyword.control.sparql
+69 " " -
+72 "G" keyword.control.sparql
+77 " " -
+78 "<" entity.name.type.iriref.turtle
+100 " " -
+103 "e" constant.complex.turtle storage.type.PNAME_NS.turtle
+106 "a" constant.complex.turtle support.variable.PN_LOCAL.turtle
+107 " " -
+108 "e" constant.complex.turtle storage.type.PNAME_NS.turtle
+111 "p" constant.complex.turtle support.variable.PN_LOCAL.turtle
+112 " " -
+113 "\"" string.quoted.double.turtle punctuation.definition.string.begin.turtle
+114 "v" string.quoted.double.turtle
+115 "\"" string.quoted.double.turtle punctuation.definition.string.end.turtle
+116 " " -
+123 "D" keyword.control.sparql
+129 " " -
+132 "?" constant.variable.sparql.turtle
+134 " " -
+135 "e" constant.complex.turtle storage.type.PNAME_NS.turtle
+138 "o" constant.complex.turtle support.variable.PN_LOCAL.turtle
+141 " " -
+142 "?" constant.variable.sparql.turtle
+144 " " -
+147 "I" keyword.control.sparql
+153 " " -
+156 "?" constant.variable.sparql.turtle
+158 " " -
+159 "e" constant.complex.turtle storage.type.PNAME_NS.turtle
+162 "n" constant.complex.turtle support.variable.PN_LOCAL.turtle
+165 " " -
+166 "?" constant.variable.sparql.turtle
+168 " " -
+171 "W" keyword.control.sparql
+176 " " -
+179 "?" constant.variable.sparql.turtle
+181 " " -
+182 "e" constant.complex.turtle storage.type.PNAME_NS.turtle
+185 "o" constant.complex.turtle support.variable.PN_LOCAL.turtle
+188 " " -
+189 "?" constant.variable.sparql.turtle
+191 " " -
+196 "D" keyword.control.sparql
+202 " " -
+203 "W" keyword.control.sparql
+208 " " -
+211 "?" constant.variable.sparql.turtle
+213 " " -
+214 "e" constant.complex.turtle storage.type.PNAME_NS.turtle
+217 "g" constant.complex.turtle support.variable.PN_LOCAL.turtle
+221 " " -
+222 "?" constant.variable.sparql.turtle
+224 " " -
+229 "L" keyword.control.sparql
+233 " " -
+234 "S" keyword.control.sparql
+240 " " -
+241 "<" entity.name.type.iriref.turtle
+270 " " -
+276 "G" keyword.control.sparql
+281 " " -
+282 "<" entity.name.type.iriref.turtle
+304 " " -
+307 "C" keyword.control.sparql
+312 " " -
+313 "D" keyword.control.sparql
+320 " " -
+323 "D" keyword.control.sparql
+327 " " -
+328 "N" keyword.control.sparql
+333 " " -
+336 "C" keyword.control.sparql
+340 " " -
+341 "<" entity.name.type.iriref.turtle
+363 " " -
+364 "T" keyword.control.sparql
+366 " " -
+367 "D" keyword.control.sparql
+374 " " -
+377 "M" keyword.control.sparql
+381 " " -
+382 "D" keyword.control.sparql
+389 " " -
+390 "T" keyword.control.sparql
+392 " " -
+393 "<" entity.name.type.iriref.turtle
+415 " " -
+418 "A" keyword.control.sparql
+421 " " -
+422 "<" entity.name.type.iriref.turtle
+444 " " -
+445 "T" keyword.control.sparql
+447 " " -
+448 "<" entity.name.type.iriref.turtle
+470 " " -
+473 "C" keyword.control.sparql
+479 " " -
+480 "G" keyword.control.sparql
+485 " " -
+486 "<" entity.name.type.iriref.turtle
+508 "\n" -

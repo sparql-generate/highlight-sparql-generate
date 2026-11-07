@@ -1,0 +1,75 @@
+# highlight.js
+0 "#" comment
+62 "\n" -
+63 "P" keyword
+69 " " -
+70 "i" symbol
+75 " " -
+76 "<" link
+115 "\n" -
+116 "P" keyword
+122 " " -
+123 "e" symbol
+126 " " -
+127 "<" link
+151 "\n" -
+153 "S" keyword
+159 " " -
+160 "e" symbol
+169 " " -
+171 "?" variable
+175 ")" -
+177 "?" variable
+182 " " -
+184 "C" built_in
+189 "(" -
+190 "?" variable
+194 ")" -
+196 "A" keyword
+198 " " -
+199 "?" variable
+204 ")" -
+206 "W" keyword
+211 " " -
+216 "?" variable
+223 " " -
+224 "e" symbol
+231 " " -
+232 "?" variable
+237 " " -
+240 "e" symbol
+246 " " -
+247 "?" variable
+251 " " -
+256 "O" keyword
+264 " " -
+267 "?" variable
+274 " " -
+275 "e" symbol
+281 " " -
+282 "?" variable
+286 " " -
+291 "F" keyword
+297 "(" -
+298 "?" variable
+302 " " -
+303 ">" operator
+305 " " -
+306 "?" variable
+310 ")" -
+314 "G" keyword
+319 " " -
+320 "B" keyword
+322 " " -
+323 "?" variable
+328 "\n" -
+329 "H" keyword
+335 " " -
+337 "C" built_in
+342 "(" -
+343 "?" variable
+347 ")" -
+349 ">" operator
+350 " " -
+351 "0" number
+352 ")" -

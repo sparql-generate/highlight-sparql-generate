@@ -9,4 +9,10 @@ module.exports = {
     lexicon: require('./lexicon'),
     /** CodeMirror 6: `StreamLanguage.define(codemirror.build({ tags }))`. */
     codemirror: require('./codemirror'),
+    /** highlight.js: `hljs.registerLanguage('sparql-generate', highlightjs)`. */
+    highlightjs: require('./highlightjs'),
+    /** Prism: `prism(Prism)` after prism-turtle and prism-sparql. */
+    prism: require('./prism'),
+    /** TextMate: `textmate.build()` / `textmate.grammarText()`. */
+    textmate: require('./textmate'),
 };

@@ -1,0 +1,149 @@
+# highlight.js
+0 "#" comment
+59 "\n" -
+60 "P" keyword
+66 " " -
+67 "s" symbol
+70 " " -
+71 "<" link
+108 "\n" -
+109 "P" keyword
+115 " " -
+116 "f" symbol
+120 " " -
+121 "<" link
+158 "\n" -
+159 "P" keyword
+165 " " -
+166 "e" symbol
+169 " " -
+170 "<" link
+194 "\n" -
+196 "T" keyword
+204 " " -
+205 "<" link
+232 " " -
+234 "?" variable
+240 ")" -
+246 "b" keyword
+252 " " -
+253 "=" operator
+254 " " -
+255 "\"" string
+268 "\\" char escape_
+270 "\"" string
+271 " " -
+276 "\"" string
+281 "{" template-variable
+282 "?" variable
+288 "}" template-variable
+289 "<" string
+294 "\\" char escape_
+296 "\"" string
+297 "\n" -
+300 "B" keyword
+303 " " -
+310 "\"" string
+316 " " -
+317 "s" symbol
+322 "(" -
+329 "G" keyword
+334 " " -
+335 "D" keyword
+343 " " -
+352 "\"" string
+357 "{" template-variable
+358 " " subst
+359 "U" built_in
+364 "(" subst
+365 "?" variable
+371 ")" subst
+373 "}" template-variable
+374 "<" string
+380 "\n" -
+389 "S" keyword
+398 " " -
+399 "=" operator
+400 " " -
+401 "\"" string
+402 "\\" char escape_
+404 "\"" string
+405 "\n" -
+416 "\"" string
+423 "\n" -
+430 "F" keyword
+436 " " -
+439 "\"" string
+455 "\\" char escape_
+457 "\"" string
+458 " " -
+459 "?" variable
+465 " " -
+466 "C" built_in
+471 "(" -
+472 "?" variable
+477 ")" -
+483 "T" keyword
+491 " " -
+492 "e" symbol
+498 "(" -
+499 "?" variable
+504 "," -
+506 "?" variable
+512 ")" -
+518 "T" keyword
+526 " " -
+529 "\"" string
+533 "{" template-variable
+534 "?" variable
+540 "}" template-variable
+541 "<" string
+546 " " -
+549 "W" keyword
+554 " " -
+557 "?" variable
+562 " " -
+563 "e" symbol
+571 " " -
+572 "?" variable
+578 " " -
+585 "\"" string
+600 "{" template-variable
+601 "?" variable
+607 "}" template-variable
+608 " " string
+616 "\\" char escape_
+618 " " string
+637 "\\" char escape_
+639 "." string
+644 "\n" -
+649 "s" keyword
+658 " " -
+659 "=" operator
+660 " " -
+661 "\"" string
+665 "\n" -
+670 "a" keyword
+675 " " -
+676 "=" operator
+677 " " -
+678 "\"" string
+694 "\n" -
+697 "W" keyword
+702 " " -
+707 "?" variable
+712 " " -
+713 "a" keyword
+714 " " -
+715 "e" symbol
+722 " " -
+725 "e" symbol
+733 " " -
+734 "?" variable
+740 " " -
+745 "O" keyword
+750 " " -
+751 "B" keyword
+753 " " -
+754 "?" variable
+760 "\n" -

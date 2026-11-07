@@ -1,0 +1,464 @@
+# Prism
+0 "#" comment
+74 "\n" -
+75 "#" comment
+148 "\n" -
+149 "B" keyword
+153 " " -
+154 "<" punctuation
+155 "h" url
+174 ">" punctuation
+175 "\n" -
+176 "P" keyword
+182 " " -
+183 "e" prefix
+185 ":" punctuation
+186 " " -
+187 "<" punctuation
+188 "h" url
+210 ">" punctuation
+211 "\n" -
+212 "P" keyword
+218 " " -
+219 "s" prefix
+225 ":" punctuation
+226 " " -
+227 "<" punctuation
+228 "h" url
+254 ">" punctuation
+255 "\n" -
+256 "P" keyword
+262 " " -
+263 "x" prefix
+266 ":" punctuation
+267 " " -
+268 "<" punctuation
+269 "h" url
+302 ">" punctuation
+303 "\n" -
+304 "P" keyword
+310 " " -
+311 "r" prefix
+314 ":" punctuation
+315 " " -
+316 "<" punctuation
+317 "h" url
+360 ">" punctuation
+361 "\n" -
+363 "S" keyword
+369 " " -
+370 "D" keyword
+378 " " -
+379 "?" variable
+386 " " -
+387 "?" variable
+392 " " -
+393 "$" variable
+402 " " -
+403 "(" punctuation
+404 "C" keyword
+409 "(" punctuation
+410 "D" keyword
+418 " " -
+419 "?" variable
+424 ")" punctuation
+425 " " -
+426 "A" keyword
+428 " " -
+429 "?" variable
+431 ")" punctuation
+432 "\n" -
+440 "(" punctuation
+441 "G" keyword
+453 "(" punctuation
+454 "?" variable
+460 " " -
+461 ";" punctuation
+462 " " -
+463 "S" keyword
+472 "=" -
+473 "\"" string
+477 ")" punctuation
+478 " " -
+479 "A" keyword
+481 " " -
+482 "?" variable
+489 ")" punctuation
+490 "\n" -
+491 "F" keyword
+495 " " -
+496 "<" punctuation
+497 "h" url
+521 ">" punctuation
+522 "\n" -
+523 "F" keyword
+527 " " -
+528 "N" keyword
+533 " " -
+534 "<" punctuation
+535 "h" url
+559 ">" punctuation
+560 "\n" -
+561 "W" keyword
+566 " " -
+567 "{" punctuation
+568 "\n" -
+571 "?" variable
+578 " " -
+579 "a" keyword
+580 " " -
+581 "e" prefix
+583 ":" punctuation
+584 "S" local-name
+590 " " -
+591 ";" punctuation
+592 "\n" -
+597 "e" prefix
+599 ":" punctuation
+600 "t" local-name
+608 " " -
+609 "?" variable
+618 " " -
+619 ";" punctuation
+620 "\n" -
+625 "e" prefix
+627 ":" punctuation
+628 "l" local-name
+632 " " -
+633 "?" variable
+638 " " -
+639 ";" punctuation
+640 "\n" -
+645 "s" prefix
+651 ":" punctuation
+652 "f" local-name
+658 " " -
+659 "\"" string
+664 " " -
+665 ";" punctuation
+666 "\n" -
+671 "e" prefix
+673 ":" punctuation
+674 "b" local-name
+677 " " -
+678 "\"" string
+688 " " -
+689 "," punctuation
+690 " " -
+691 "'" string
+701 "@" punctuation
+702 "e" tag
+704 " " -
+705 "," punctuation
+706 " " -
+707 "\"" string
+711 "^" punctuation
+713 "x" prefix
+716 ":" punctuation
+717 "i" local-name
+724 " " -
+725 "." punctuation
+726 "\n" -
+729 "?" variable
+734 " " -
+735 "e" prefix
+737 ":" punctuation
+738 "a" local-name
+743 " " -
+744 "?" variable
+748 " " -
+749 ";" punctuation
+750 " " -
+751 "e" prefix
+753 ":" punctuation
+754 "p" local-name
+755 "/" -
+756 "e" prefix
+758 ":" punctuation
+759 "q" local-name
+760 "*" -
+762 "?" variable
+764 " " -
+765 ";" punctuation
+766 " " -
+768 "e" prefix
+770 ":" punctuation
+771 "i" local-name
+778 " " -
+779 "?" variable
+781 " " -
+782 ";" punctuation
+783 " " -
+785 "r" prefix
+788 ":" punctuation
+789 "t" local-name
+793 " " -
+794 "?" variable
+796 " " -
+797 "." punctuation
+798 "\n" -
+801 "?" variable
+806 " " -
+807 "e" prefix
+809 ":" punctuation
+810 "l" local-name
+815 " " -
+816 "?" variable
+822 " " -
+823 "." punctuation
+824 "\n" -
+827 "O" keyword
+835 " " -
+836 "{" punctuation
+837 " " -
+838 "?" variable
+843 " " -
+844 "e" prefix
+846 ":" punctuation
+847 "w" local-name
+853 " " -
+854 "?" variable
+856 " " -
+857 "." punctuation
+858 " " -
+859 "F" keyword
+865 "(" punctuation
+866 "?" variable
+868 " " -
+871 "1" number
+873 " " -
+877 "?" variable
+879 " " -
+883 "2" number
+888 ")" punctuation
+889 " " -
+890 "}" punctuation
+891 "\n" -
+894 "{" punctuation
+895 " " -
+896 "?" variable
+901 " " -
+902 "e" prefix
+904 ":" punctuation
+905 "x" local-name
+906 " " -
+907 "?" variable
+909 " " -
+910 "}" punctuation
+911 " " -
+912 "U" keyword
+917 " " -
+918 "{" punctuation
+919 " " -
+920 "?" variable
+925 " " -
+926 "e" prefix
+928 ":" punctuation
+929 "y" local-name
+930 " " -
+931 "?" variable
+933 " " -
+934 "}" punctuation
+935 "\n" -
+938 "M" keyword
+943 " " -
+944 "{" punctuation
+945 " " -
+946 "?" variable
+951 " " -
+952 "e" prefix
+954 ":" punctuation
+955 "h" local-name
+961 " " -
+962 "t" boolean
+966 " " -
+967 "}" punctuation
+968 "\n" -
+971 "B" keyword
+975 " " -
+976 "(" punctuation
+977 "C" keyword
+983 "(" punctuation
+984 "S" keyword
+987 "(" punctuation
+988 "?" variable
+990 ")" punctuation
+992 " " -
+993 "\"" string
+996 "," punctuation
+997 " " -
+998 "L" keyword
+1003 "(" punctuation
+1004 "?" variable
+1010 ")" punctuation
+1012 " " -
+1013 "A" keyword
+1015 " " -
+1016 "?" variable
+1020 ")" punctuation
+1021 "\n" -
+1024 "V" keyword
+1030 " " -
+1031 "(" punctuation
+1032 "?" variable
+1037 " " -
+1038 "?" variable
+1043 ")" punctuation
+1044 " " -
+1045 "{" punctuation
+1046 " " -
+1047 "(" punctuation
+1048 "e" prefix
+1050 ":" punctuation
+1051 "a" local-name
+1052 " " -
+1053 "1" number
+1054 ")" punctuation
+1055 " " -
+1056 "(" punctuation
+1057 "U" -
+1063 "f" boolean
+1068 ")" punctuation
+1069 " " -
+1070 "}" punctuation
+1071 "\n" -
+1074 "F" keyword
+1080 " " -
+1081 "N" keyword
+1084 " " -
+1085 "E" keyword
+1091 " " -
+1092 "{" punctuation
+1093 " " -
+1094 "?" variable
+1099 " " -
+1100 "e" prefix
+1102 ":" punctuation
+1103 "d" local-name
+1110 " " -
+1111 "[" punctuation
+1113 " " -
+1114 "}" punctuation
+1115 "\n" -
+1118 "F" keyword
+1124 " " -
+1125 "(" punctuation
+1126 "r" keyword
+1131 "(" punctuation
+1132 "?" variable
+1138 "," punctuation
+1139 " " -
+1140 "\"" string
+1144 "," punctuation
+1145 " " -
+1146 "\"" string
+1149 ")" punctuation
+1150 " " -
+1154 "?" variable
+1156 " " -
+1160 "-" number
+1162 " " -
+1166 "?" variable
+1168 " " -
+1171 "+" number
+1175 ")" punctuation
+1176 "\n" -
+1179 "?" variable
+1184 " " -
+1185 "e" prefix
+1187 ":" punctuation
+1188 "c" local-name
+1192 " " -
+1193 "(" punctuation
+1194 " " -
+1195 "1" number
+1196 " " -
+1197 "2" number
+1198 " " -
+1199 "_" prefix
+1200 ":" punctuation
+1201 "b" local-name
+1202 " " -
+1203 ")" punctuation
+1204 " " -
+1205 "." punctuation
+1206 "\n" -
+1209 "S" keyword
+1216 " " -
+1217 "S" keyword
+1223 " " -
+1224 "<" punctuation
+1225 "h" url
+1250 ">" punctuation
+1251 " " -
+1252 "{" punctuation
+1253 " " -
+1254 "?" variable
+1259 " " -
+1260 "e" prefix
+1262 ":" punctuation
+1263 "z" local-name
+1264 " " -
+1265 "?" variable
+1267 " " -
+1268 "}" punctuation
+1269 "\n" -
+1272 "G" keyword
+1277 " " -
+1278 "?" variable
+1280 " " -
+1281 "{" punctuation
+1282 " " -
+1283 "?" variable
+1288 " " -
+1289 "e" prefix
+1291 ":" punctuation
+1292 "i" local-name
+1294 " " -
+1295 "?" variable
+1297 " " -
+1298 "}" punctuation
+1299 "\n" -
+1300 "}" punctuation
+1301 "\n" -
+1302 "G" keyword
+1307 " " -
+1308 "B" keyword
+1310 " " -
+1311 "?" variable
+1318 " " -
+1319 "?" variable
+1324 "\n" -
+1325 "H" keyword
+1331 " " -
+1332 "(" punctuation
+1333 "C" keyword
+1338 "(" punctuation
+1339 "?" variable
+1344 ")" punctuation
+1345 " " -
+1348 "1" number
+1349 ")" punctuation
+1350 "\n" -
+1351 "O" keyword
+1356 " " -
+1357 "B" keyword
+1359 " " -
+1360 "D" keyword
+1364 "(" punctuation
+1365 "?" variable
+1367 ")" punctuation
+1368 " " -
+1369 "A" keyword
+1372 "(" punctuation
+1373 "?" variable
+1380 ")" punctuation
+1381 "\n" -
+1382 "L" keyword
+1387 " " -
+1388 "1" number
+1390 "\n" -
+1391 "O" keyword
+1397 " " -
+1398 "5" number
+1399 "\n" -

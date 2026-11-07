@@ -57,10 +57,73 @@ const engines = [];
     engines.push({
         name: 'CodeMirror',
         key: 'codemirror',
-        chars: (src) => charTokens(ours, src),
-        base: (src) => charTokens(sparql, src),
-        roles: TOKEN,
+        chars: async (src) => charTokens(ours, src),
+        base: async (src) => charTokens(sparql, src),
+        // `keyword` and `builtin` are also the SPARQL mode's classes
+        roleOf: (c) => roleTable(TOKEN)(c),
+        exact: ['interp.punct'],
     });
+}
+
+{   // TextMate
+    const tm = require('./lib/textmate');
+    const last = (c) => (c ? c.split(' ').pop() : '');
+    engines.push({
+        name: 'TextMate',
+        key: 'textmate',
+        chars: (src) => tm.charScopes(src, 'source.sparql-generate'),
+        base: (src) => tm.charScopes(src, 'source.sparql'),
+        roleOf: (c) => {
+            const s = last(c);
+            if (/^punctuation\.section\.embedded\.(begin|end)\.sparql-generate$/.test(s)) return ['interp.punct'];
+            if (s === 'keyword.control.sparql-generate') return ['keyword.generate'];
+            if (s === 'support.function.library.sparql-generate') return ['function.library'];
+            return [];
+        },
+        exact: ['interp.punct', 'keyword.generate', 'function.library'],
+    });
+}
+
+{   // Prism
+    const Prism = require('prismjs');
+    require('prismjs/components/prism-turtle');
+    require('prismjs/components/prism-sparql');
+    const registerPrism = require('../src/prism');
+    registerPrism(Prism);
+    const { charTypes } = require('./lib/prism-tokens');
+    engines.push({
+        name: 'Prism',
+        key: 'prism',
+        chars: async (src) => charTypes(Prism, Prism.languages['sparql-generate'], src),
+        base: async (src) => charTypes(Prism, Prism.languages.sparql, src),
+        roleOf: (c) => roleTable(Object.fromEntries(Object.entries(registerPrism.ALIAS)
+            .map(([r, a]) => [r, [].concat(a).join(' ')])))(c),
+        exact: ['interp.punct', 'function.library'],
+    });
+}
+
+{   // highlight.js — no SPARQL of its own, so no parity
+    const hljs = require('highlight.js/lib/core');
+    const lang = require('../src/highlightjs');
+    hljs.registerLanguage('sparql-generate', lang);
+    const { charScopes } = require('./lib/hljs-tokens');
+    engines.push({
+        name: 'highlight.js',
+        key: 'hljs',
+        chars: async (src) => charScopes(hljs.highlight(src, { language: 'sparql-generate' }).value),
+        roleOf: (c) => roleTable(lang.SCOPE)(c),
+        exact: ['interp.punct'],
+    });
+}
+
+/** role -> class table, read backwards: class -> [roles]. */
+function roleTable(table) {
+    const back = new Map();
+    for (const [role, cls] of Object.entries(table)) {
+        if (!back.has(cls)) back.set(cls, []);
+        back.get(cls).push(role);
+    }
+    return (c) => back.get(c) || [];
 }
 
 // ------------------------------------------------------------- 1. drift
@@ -104,12 +167,12 @@ async function checkRegexes() {
  *  NAMED. Each must be observed: if it disappears, the test says so. */
 const DIVERGENCES = [];
 
-function checkParity() {
+async function checkParity() {
     for (const e of engines.filter((x) => x.base)) {
         for (const f of PURE) {
             const src = read(f);
-            const a = e.base(src);
-            const b = e.chars(src);
+            const a = await e.base(src);
+            const b = await e.chars(src);
             const i = a.findIndex((t, n) => t !== b[n]);
             const known = DIVERGENCES.find((d) => d.engine === e.name && d.file === f);
             if (i < 0 && a.length === b.length) {
@@ -138,14 +201,14 @@ function goldenText(name, src, classes) {
     return out.join('\n') + '\n';
 }
 
-function checkGoldens() {
+async function checkGoldens() {
     fs.mkdirSync(GOLDEN, { recursive: true });
     for (const e of engines) {
         let n = 0;
         for (const f of [...CONSTRUCTS, ...PURE]) {
             const src = read(f);
             const file = path.join(GOLDEN, `${f.replace(/\//g, '.')}.${e.key}.txt`);
-            const fresh = goldenText(e.name, src, e.chars(src));
+            const fresh = goldenText(e.name, src, await e.chars(src));
             if (process.env.UPDATE_GOLDEN) { fs.writeFileSync(file, fresh); n++; continue; }
             if (!fs.existsSync(file)) { fail(`golden ${path.basename(file)} missing — UPDATE_GOLDEN=1 npm test`); continue; }
             const old = fs.readFileSync(file, 'utf8');
@@ -159,38 +222,39 @@ function checkGoldens() {
 }
 
 // ------------------------------------------------------------- 5. roles
+//
+// For each role, the engines whose class for it is their OWN (`exact`) must
+// mark exactly the same characters; an engine that shares the class with a
+// SPARQL construct (CodeMirror gives `keyword` to every keyword) must mark at
+// least those characters.
 
-/** The role of each character, for one engine: the class it gives, read
- *  back through the engine's role table. */
-function roleChars(e, src) {
-    const back = new Map();
-    for (const [role, cls] of Object.entries(e.roles)) {
-        if (!back.has(cls)) back.set(cls, []);
-        back.get(cls).push(role);
-    }
-    return e.chars(src).map((c) => back.get(c) || null);
-}
+const ROLES_CHECKED = ['interp.punct', 'keyword.generate', 'function.library'];
 
-/** The roles that a class can only mean in SPARQL-Generate: the interpolation
- *  braces, the keywords, the library names. `string` and `iri` share their
- *  class with SPARQL strings and IRIs, so they are compared on the
- *  template's own characters only (inside interpolated strings and IRIs). */
-const DISTINCT_ROLES = ['interp.punct', 'keyword.generate', 'function.library'];
-
-function checkRoles() {
-    if (engines.length < 2) { skip('roles — a single engine'); return; }
+async function checkRoles() {
     for (const f of CONSTRUCTS) {
         const src = read(f);
-        const per = engines.map((e) => [e, roleChars(e, src)]);
-        for (const role of DISTINCT_ROLES) {
-            const sets = per.map(([e, r]) => [e, r.map((x, i) => (x && x.includes(role) && /\S/.test(src[i])))]);
-            const [e0, m0] = sets[0];
-            for (const [e, m] of sets.slice(1)) {
-                const i = m.findIndex((v, k) => v !== m0[k]);
+        const masks = [];
+        for (const e of engines) {
+            const classes = await e.chars(src);
+            masks.push([e, (role) => classes.map((c, i) => /\S/.test(src[i]) && e.roleOf(c).includes(role))]);
+        }
+        for (const role of ROLES_CHECKED) {
+            const exact = masks.filter(([e]) => e.exact.includes(role));
+            if (!exact.length) continue;
+            const [e0, m0f] = exact[0];
+            const ref = m0f(role);
+            if (role === 'interp.punct' && /["'<][^"'\n>]*\{|[?$]\{/.test(src) && !ref.some(Boolean)) {
+                fail(`roles ${f}: ${e0.name} marks no ${role} at all`);
+            }
+            const where = (i) => `line ${src.slice(0, i).split('\n').length} ${JSON.stringify(src.slice(i, i + 14))}`;
+            for (const [e, mf] of masks.slice(0)) {
+                if (e === e0) continue;
+                const m = mf(role);
+                const isExact = e.exact.includes(role);
+                const i = ref.findIndex((v, k) => (isExact ? v !== m[k] : v && !m[k]));
                 if (i >= 0) {
-                    const line = src.slice(0, i).split('\n').length;
-                    fail(`roles ${f} line ${line}: ${JSON.stringify(src.slice(i, i + 12))} is ${role} for ` +
-                        `${m0[i] ? e0.name : e.name}, not for ${m0[i] ? e.name : e0.name}`);
+                    fail(`roles ${f} ${where(i)}: ${role} for ${ref[i] ? e0.name : e.name}, ` +
+                        `not for ${ref[i] ? e.name : e0.name}`);
                 }
             }
         }
@@ -269,9 +333,9 @@ function checkSyntax() {
 (async () => {
     checkDrift();
     await checkRegexes();
-    checkParity();
-    checkGoldens();
-    checkRoles();
+    await checkParity();
+    await checkGoldens();
+    await checkRoles();
     await checkEsm();
     checkSyntax();
     if (failures) {

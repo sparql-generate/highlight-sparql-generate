@@ -1,0 +1,174 @@
+# Prism
+0 "#" comment
+20 "\n" -
+21 "P" keyword
+27 " " -
+28 "e" prefix
+30 ":" punctuation
+31 " " -
+32 "<" punctuation
+33 "h" url
+55 ">" punctuation
+56 "\n" -
+58 "I" keyword
+64 " " -
+65 "D" keyword
+69 " " -
+70 "{" punctuation
+71 " " -
+72 "G" keyword
+77 " " -
+78 "<" punctuation
+79 "h" url
+99 ">" punctuation
+100 " " -
+101 "{" punctuation
+102 " " -
+103 "e" prefix
+105 ":" punctuation
+106 "a" local-name
+107 " " -
+108 "e" prefix
+110 ":" punctuation
+111 "p" local-name
+112 " " -
+113 "\"" string
+116 " " -
+117 "}" punctuation
+118 " " -
+119 "}" punctuation
+120 " " -
+121 ";" punctuation
+122 "\n" -
+123 "D" keyword
+129 " " -
+130 "{" punctuation
+131 " " -
+132 "?" variable
+134 " " -
+135 "e" prefix
+137 ":" punctuation
+138 "o" local-name
+141 " " -
+142 "?" variable
+144 " " -
+145 "}" punctuation
+146 " " -
+147 "I" keyword
+153 " " -
+154 "{" punctuation
+155 " " -
+156 "?" variable
+158 " " -
+159 "e" prefix
+161 ":" punctuation
+162 "n" local-name
+165 " " -
+166 "?" variable
+168 " " -
+169 "}" punctuation
+170 " " -
+171 "W" keyword
+176 " " -
+177 "{" punctuation
+178 " " -
+179 "?" variable
+181 " " -
+182 "e" prefix
+184 ":" punctuation
+185 "o" local-name
+188 " " -
+189 "?" variable
+191 " " -
+192 "}" punctuation
+193 " " -
+194 ";" punctuation
+195 "\n" -
+196 "D" keyword
+202 " " -
+203 "W" keyword
+208 " " -
+209 "{" punctuation
+210 " " -
+211 "?" variable
+213 " " -
+214 "e" prefix
+216 ":" punctuation
+217 "g" local-name
+221 " " -
+222 "?" variable
+224 " " -
+225 "}" punctuation
+226 " " -
+227 ";" punctuation
+228 "\n" -
+229 "L" keyword
+233 " " -
+234 "S" keyword
+240 " " -
+241 "<" punctuation
+242 "h" url
+269 ">" punctuation
+270 " " -
+271 "I" keyword
+275 " " -
+276 "G" keyword
+281 " " -
+282 "<" punctuation
+283 "h" url
+303 ">" punctuation
+304 " " -
+305 ";" punctuation
+306 "\n" -
+307 "C" keyword
+312 " " -
+313 "D" keyword
+320 " " -
+321 ";" punctuation
+322 "\n" -
+323 "D" keyword
+327 " " -
+328 "N" keyword
+333 " " -
+334 ";" punctuation
+335 "\n" -
+336 "C" keyword
+340 " " -
+341 "<" punctuation
+342 "h" url
+362 ">" punctuation
+363 " " -
+367 "D" keyword
+374 " " -
+375 ";" punctuation
+376 "\n" -
+377 "M" keyword
+381 " " -
+382 "D" keyword
+389 " " -
+393 "<" punctuation
+394 "h" url
+414 ">" punctuation
+415 " " -
+416 ";" punctuation
+417 "\n" -
+418 "A" keyword
+421 " " -
+422 "<" punctuation
+423 "h" url
+443 ">" punctuation
+444 " " -
+448 "<" punctuation
+449 "h" url
+469 ">" punctuation
+470 " " -
+471 ";" punctuation
+472 "\n" -
+473 "C" keyword
+479 " " -
+480 "G" keyword
+485 " " -
+486 "<" punctuation
+487 "h" url
+507 ">" punctuation
+508 "\n" -

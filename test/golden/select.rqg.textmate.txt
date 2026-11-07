@@ -1,0 +1,77 @@
+# TextMate
+0 "#" comment.line.number-sign.turtle
+62 "\n" -
+63 "P" keyword.operator.turtle
+70 "i" constant.complex.turtle storage.type.PNAME_NS.turtle
+75 " " -
+76 "<" entity.name.type.iriref.turtle
+115 "\n" -
+116 "P" keyword.operator.turtle
+123 "e" constant.complex.turtle storage.type.PNAME_NS.turtle
+126 " " -
+127 "<" entity.name.type.iriref.turtle
+151 "\n" -
+153 "S" keyword.control.sparql
+159 " " -
+160 "e" constant.complex.turtle storage.type.PNAME_NS.turtle
+163 "p" constant.complex.turtle support.variable.PN_LOCAL.turtle
+169 " " -
+171 "?" constant.variable.sparql.turtle
+175 ")" -
+177 "?" constant.variable.sparql.turtle
+182 " " -
+184 "C" support.function.sparql
+189 "(" -
+190 "?" constant.variable.sparql.turtle
+194 ")" -
+196 "A" keyword.control.sparql
+198 " " -
+199 "?" constant.variable.sparql.turtle
+204 ")" -
+206 "W" keyword.control.sparql
+211 " " -
+216 "?" constant.variable.sparql.turtle
+223 " " -
+224 "e" constant.complex.turtle storage.type.PNAME_NS.turtle
+227 "n" constant.complex.turtle support.variable.PN_LOCAL.turtle
+231 " " -
+232 "?" constant.variable.sparql.turtle
+237 " " -
+240 "e" constant.complex.turtle storage.type.PNAME_NS.turtle
+243 "a" constant.complex.turtle support.variable.PN_LOCAL.turtle
+246 " " -
+247 "?" constant.variable.sparql.turtle
+251 " " -
+256 "O" keyword.control.sparql
+264 " " -
+267 "?" constant.variable.sparql.turtle
+274 " " -
+275 "e" constant.complex.turtle storage.type.PNAME_NS.turtle
+278 "p" constant.complex.turtle support.variable.PN_LOCAL.turtle
+281 " " -
+282 "?" constant.variable.sparql.turtle
+286 " " -
+291 "F" keyword.control.sparql
+297 "(" -
+298 "?" constant.variable.sparql.turtle
+302 " " -
+303 ">" support.class.sparql
+305 " " -
+306 "?" constant.variable.sparql.turtle
+310 ")" -
+314 "G" keyword.control.sparql
+319 " " -
+320 "B" keyword.control.sparql
+322 " " -
+323 "?" constant.variable.sparql.turtle
+328 "\n" -
+329 "H" keyword.control.sparql
+335 " " -
+337 "C" support.function.sparql
+342 "(" -
+343 "?" constant.variable.sparql.turtle
+347 ")" -
+349 ">" support.class.sparql
+350 " " -
+351 "0" constant.numeric.turtle
+352 ")" -

@@ -1,0 +1,39 @@
+# highlight.js
+0 "#" comment
+48 "\n" -
+49 "P" keyword
+55 " " -
+56 "e" symbol
+59 " " -
+60 "<" link
+84 "\n" -
+86 "P" keyword
+93 " " -
+98 "P" keyword
+105 " " -
+106 "e" symbol
+115 "(" -
+116 "?" variable
+121 "," -
+123 "\"" string
+130 "{" template-variable
+131 "?" variable
+136 "}" template-variable
+137 "\"" string
+138 ")" -
+144 "S" keyword
+150 " " -
+151 "<" link
+181 " " -
+182 "A" keyword
+184 " " -
+185 "?" variable
+191 "\n" -
+192 "W" keyword
+197 " " -
+200 "?" variable
+205 " " -
+206 "e" symbol
+213 " " -
+214 "?" variable
+219 " " -

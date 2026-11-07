@@ -1,0 +1,426 @@
+# TextMate
+0 "#" comment.line.number-sign.turtle
+70 "\n" -
+71 "B" keyword.operator.turtle
+76 "<" entity.name.type.iriref.turtle
+97 "\n" -
+98 "P" keyword.operator.turtle
+105 "f" constant.complex.turtle storage.type.PNAME_NS.turtle
+109 " " -
+110 "<" entity.name.type.iriref.turtle
+147 "\n" -
+148 "P" keyword.operator.turtle
+155 "i" constant.complex.turtle storage.type.PNAME_NS.turtle
+160 " " -
+161 "<" entity.name.type.iriref.turtle
+200 "\n" -
+201 "P" keyword.operator.turtle
+208 "x" constant.complex.turtle storage.type.PNAME_NS.turtle
+212 " " -
+213 "<" entity.name.type.iriref.turtle
+248 "\n" -
+249 "P" keyword.operator.turtle
+256 "e" constant.complex.turtle storage.type.PNAME_NS.turtle
+259 " " -
+260 "<" entity.name.type.iriref.turtle
+284 "\n" -
+286 "G" keyword.control.sparql-generate
+294 " " -
+295 "<" entity.name.type.iriref.turtle
+326 " " -
+328 "?" constant.variable.sparql.turtle
+333 "," -
+335 "$" constant.variable.sparql.turtle
+341 ")" -
+347 "<" entity.name.type.iriref.sparql-generate
+353 "{" entity.name.type.iriref.sparql-generate meta.embedded.line.sparql-generate punctuation.section.embedded.begin.sparql-generate
+354 " " entity.name.type.iriref.sparql-generate meta.embedded.line.sparql-generate
+355 "f" entity.name.type.iriref.sparql-generate meta.embedded.line.sparql-generate support.function.library.sparql-generate
+366 "(" entity.name.type.iriref.sparql-generate meta.embedded.line.sparql-generate
+367 "?" entity.name.type.iriref.sparql-generate meta.embedded.line.sparql-generate constant.variable.sparql.turtle
+372 "," entity.name.type.iriref.sparql-generate meta.embedded.line.sparql-generate
+374 "\"" entity.name.type.iriref.sparql-generate meta.embedded.line.sparql-generate string.quoted.double.turtle punctuation.definition.string.begin.turtle
+375 "h" entity.name.type.iriref.sparql-generate meta.embedded.line.sparql-generate string.quoted.double.turtle
+384 "\"" entity.name.type.iriref.sparql-generate meta.embedded.line.sparql-generate string.quoted.double.turtle punctuation.definition.string.end.turtle
+385 ")" entity.name.type.iriref.sparql-generate meta.embedded.line.sparql-generate
+387 "}" entity.name.type.iriref.sparql-generate meta.embedded.line.sparql-generate punctuation.section.embedded.end.sparql-generate
+388 ">" entity.name.type.iriref.sparql-generate
+389 " " meta.specialPredicate.turtle
+390 "a" meta.specialPredicate.turtle keyword.control.turtle
+391 " " meta.specialPredicate.turtle
+392 "e" constant.complex.turtle storage.type.PNAME_NS.turtle
+395 "C" constant.complex.turtle support.variable.PN_LOCAL.turtle
+399 " " -
+406 "e" constant.complex.turtle storage.type.PNAME_NS.turtle
+409 "n" constant.complex.turtle support.variable.PN_LOCAL.turtle
+413 " " -
+414 "\"" string.quoted.double.turtle punctuation.definition.string.begin.turtle
+415 "{" string.quoted.double.turtle meta.embedded.line.sparql-generate punctuation.section.embedded.begin.sparql-generate
+416 " " string.quoted.double.turtle meta.embedded.line.sparql-generate
+417 "?" string.quoted.double.turtle meta.embedded.line.sparql-generate constant.variable.sparql.turtle
+422 " " string.quoted.double.turtle meta.embedded.line.sparql-generate
+423 "}" string.quoted.double.turtle meta.embedded.line.sparql-generate punctuation.section.embedded.end.sparql-generate
+424 "\"" string.quoted.double.turtle punctuation.definition.string.end.turtle
+425 "@" meta.string-literal-language-tag.turtle
+426 "e" meta.string-literal-language-tag.turtle entity.name.class.turtle
+428 " " -
+435 "e" constant.complex.turtle storage.type.PNAME_NS.turtle
+438 "l" constant.complex.turtle support.variable.PN_LOCAL.turtle
+443 " " -
+444 "'" string.quoted.single.turtle punctuation.definition.string.begin.turtle
+445 "C" string.quoted.single.turtle
+453 "{" string.quoted.single.turtle meta.embedded.line.sparql-generate punctuation.section.embedded.begin.sparql-generate
+454 "?" string.quoted.single.turtle meta.embedded.line.sparql-generate constant.variable.sparql.turtle
+459 "}" string.quoted.single.turtle meta.embedded.line.sparql-generate punctuation.section.embedded.end.sparql-generate
+460 "'" string.quoted.single.turtle
+461 " " -
+468 "e" constant.complex.turtle storage.type.PNAME_NS.turtle
+471 "c" constant.complex.turtle support.variable.PN_LOCAL.turtle
+475 " " -
+476 "\"" string.quoted.double.turtle punctuation.definition.string.begin.turtle
+477 "{" string.quoted.double.turtle meta.embedded.line.sparql-generate punctuation.section.embedded.begin.sparql-generate
+478 " " string.quoted.double.turtle meta.embedded.line.sparql-generate
+479 "S" string.quoted.double.turtle meta.embedded.line.sparql-generate support.function.sparql
+482 "(" string.quoted.double.turtle meta.embedded.line.sparql-generate
+483 "?" string.quoted.double.turtle meta.embedded.line.sparql-generate constant.variable.sparql.turtle
+488 ")" string.quoted.double.turtle meta.embedded.line.sparql-generate
+490 "}" string.quoted.double.turtle meta.embedded.line.sparql-generate punctuation.section.embedded.end.sparql-generate
+491 "\"" string.quoted.double.turtle punctuation.definition.string.end.turtle
+492 "^" support.class.sparql
+494 "x" constant.complex.turtle storage.type.PNAME_NS.turtle
+498 "s" constant.complex.turtle support.variable.PN_LOCAL.turtle
+504 " " -
+511 "e" constant.complex.turtle storage.type.PNAME_NS.turtle
+514 "t" constant.complex.turtle support.variable.PN_LOCAL.turtle
+519 " " -
+520 "\"" string.quoted.double.turtle punctuation.definition.string.begin.turtle
+521 "{" string.quoted.double.turtle meta.embedded.line.sparql-generate punctuation.section.embedded.begin.sparql-generate
+522 "?" string.quoted.double.turtle meta.embedded.line.sparql-generate constant.variable.sparql.turtle
+524 "}" string.quoted.double.turtle meta.embedded.line.sparql-generate punctuation.section.embedded.end.sparql-generate
+525 "\"" string.quoted.double.turtle punctuation.definition.string.end.turtle
+526 "^" support.class.sparql
+528 "<" entity.name.type.iriref.sparql-generate
+551 "{" entity.name.type.iriref.sparql-generate meta.embedded.line.sparql-generate punctuation.section.embedded.begin.sparql-generate
+552 "?" entity.name.type.iriref.sparql-generate meta.embedded.line.sparql-generate constant.variable.sparql.turtle
+557 "}" entity.name.type.iriref.sparql-generate meta.embedded.line.sparql-generate punctuation.section.embedded.end.sparql-generate
+558 ">" entity.name.type.iriref.sparql-generate
+559 " " -
+566 "e" constant.complex.turtle storage.type.PNAME_NS.turtle
+569 "e" constant.complex.turtle support.variable.PN_LOCAL.turtle
+576 " " -
+577 "\"" string.quoted.double.turtle punctuation.definition.string.begin.turtle
+578 "a" string.quoted.double.turtle
+588 "\\" string.quoted.double.turtle constant.character.escape.turtle
+590 " " string.quoted.double.turtle
+597 "\\" string.quoted.double.turtle constant.character.escape.turtle
+599 " " string.quoted.double.turtle
+604 "{" string.quoted.double.turtle meta.embedded.line.sparql-generate punctuation.section.embedded.begin.sparql-generate
+605 "?" string.quoted.double.turtle meta.embedded.line.sparql-generate constant.variable.sparql.turtle
+607 "}" string.quoted.double.turtle meta.embedded.line.sparql-generate punctuation.section.embedded.end.sparql-generate
+608 "\"" string.quoted.double.turtle punctuation.definition.string.end.turtle
+609 " " -
+616 "e" constant.complex.turtle storage.type.PNAME_NS.turtle
+619 "n" constant.complex.turtle support.variable.PN_LOCAL.turtle
+625 " " -
+626 "\"" string.quoted.double.turtle punctuation.definition.string.begin.turtle
+627 "<" string.quoted.double.turtle
+628 "{" string.quoted.double.turtle meta.embedded.line.sparql-generate punctuation.section.embedded.begin.sparql-generate
+629 " " string.quoted.double.turtle meta.embedded.line.sparql-generate
+630 "C" string.quoted.double.turtle meta.embedded.line.sparql-generate support.function.sparql
+636 "(" string.quoted.double.turtle meta.embedded.line.sparql-generate
+637 "?" string.quoted.double.turtle meta.embedded.line.sparql-generate constant.variable.sparql.turtle
+639 "," string.quoted.double.turtle meta.embedded.line.sparql-generate
+641 "\"" string.quoted.double.turtle meta.embedded.line.sparql-generate string.quoted.double.turtle punctuation.definition.string.begin.turtle
+642 "-" string.quoted.double.turtle meta.embedded.line.sparql-generate string.quoted.double.turtle
+643 "{" string.quoted.double.turtle meta.embedded.line.sparql-generate string.quoted.double.turtle meta.embedded.line.sparql-generate punctuation.section.embedded.begin.sparql-generate
+644 "?" string.quoted.double.turtle meta.embedded.line.sparql-generate string.quoted.double.turtle meta.embedded.line.sparql-generate constant.variable.sparql.turtle
+646 "}" string.quoted.double.turtle meta.embedded.line.sparql-generate string.quoted.double.turtle meta.embedded.line.sparql-generate punctuation.section.embedded.end.sparql-generate
+647 "-" string.quoted.double.turtle meta.embedded.line.sparql-generate string.quoted.double.turtle
+648 "\"" string.quoted.double.turtle meta.embedded.line.sparql-generate string.quoted.double.turtle punctuation.definition.string.end.turtle
+649 "," string.quoted.double.turtle meta.embedded.line.sparql-generate
+651 "'" string.quoted.double.turtle meta.embedded.line.sparql-generate string.quoted.single.turtle punctuation.definition.string.begin.turtle
+652 "c" string.quoted.double.turtle meta.embedded.line.sparql-generate string.quoted.single.turtle
+654 ")" string.quoted.double.turtle meta.embedded.line.sparql-generate
+656 "}" string.quoted.double.turtle meta.embedded.line.sparql-generate punctuation.section.embedded.end.sparql-generate
+657 ">" string.quoted.double.turtle
+658 "\"" string.quoted.double.turtle punctuation.definition.string.end.turtle
+659 " " -
+666 "e" constant.complex.turtle storage.type.PNAME_NS.turtle
+669 "t" constant.complex.turtle support.variable.PN_LOCAL.turtle
+673 " " -
+674 "\"" string.quoted.double.turtle punctuation.definition.string.begin.turtle
+675 "{" string.quoted.double.turtle meta.embedded.line.sparql-generate punctuation.section.embedded.begin.sparql-generate
+676 " " string.quoted.double.turtle meta.embedded.line.sparql-generate
+677 "I" string.quoted.double.turtle meta.embedded.line.sparql-generate support.function.sparql
+679 "(" string.quoted.double.turtle meta.embedded.line.sparql-generate
+680 "E" string.quoted.double.turtle meta.embedded.line.sparql-generate keyword.control.sparql
+686 " " string.quoted.double.turtle meta.embedded.line.sparql-generate
+689 "?" string.quoted.double.turtle meta.embedded.line.sparql-generate constant.variable.sparql.turtle
+691 " " string.quoted.double.turtle meta.embedded.line.sparql-generate
+692 "?" string.quoted.double.turtle meta.embedded.line.sparql-generate constant.variable.sparql.turtle
+694 " " string.quoted.double.turtle meta.embedded.line.sparql-generate
+695 "?" string.quoted.double.turtle meta.embedded.line.sparql-generate constant.variable.sparql.turtle
+697 " " string.quoted.double.turtle meta.embedded.line.sparql-generate
+701 "\"" string.quoted.double.turtle meta.embedded.line.sparql-generate string.quoted.double.turtle punctuation.definition.string.begin.turtle
+702 "y" string.quoted.double.turtle meta.embedded.line.sparql-generate string.quoted.double.turtle
+705 "\"" string.quoted.double.turtle meta.embedded.line.sparql-generate string.quoted.double.turtle punctuation.definition.string.end.turtle
+706 "," string.quoted.double.turtle meta.embedded.line.sparql-generate
+708 "\"" string.quoted.double.turtle meta.embedded.line.sparql-generate string.quoted.double.turtle punctuation.definition.string.begin.turtle
+709 "n" string.quoted.double.turtle meta.embedded.line.sparql-generate string.quoted.double.turtle
+711 "\"" string.quoted.double.turtle meta.embedded.line.sparql-generate string.quoted.double.turtle punctuation.definition.string.end.turtle
+712 ")" string.quoted.double.turtle meta.embedded.line.sparql-generate
+714 "}" string.quoted.double.turtle meta.embedded.line.sparql-generate punctuation.section.embedded.end.sparql-generate
+715 "\"" string.quoted.double.turtle punctuation.definition.string.end.turtle
+716 " " -
+723 "e" constant.complex.turtle storage.type.PNAME_NS.turtle
+726 "p" constant.complex.turtle support.variable.PN_LOCAL.turtle
+729 " " -
+730 "?" meta.embedded.line.sparql-generate punctuation.section.embedded.begin.sparql-generate
+732 " " meta.embedded.line.sparql-generate
+733 "?" meta.embedded.line.sparql-generate constant.variable.sparql.turtle
+744 " " meta.embedded.line.sparql-generate
+745 "*" meta.embedded.line.sparql-generate support.class.sparql
+746 " " meta.embedded.line.sparql-generate
+747 "1" meta.embedded.line.sparql-generate constant.numeric.turtle
+751 " " meta.embedded.line.sparql-generate
+752 "}" meta.embedded.line.sparql-generate punctuation.section.embedded.end.sparql-generate
+753 " " -
+760 "e" constant.complex.turtle storage.type.PNAME_NS.turtle
+763 "d" constant.complex.turtle support.variable.PN_LOCAL.turtle
+770 " " -
+771 "$" meta.embedded.line.sparql-generate punctuation.section.embedded.begin.sparql-generate
+773 " " meta.embedded.line.sparql-generate
+774 "?" meta.embedded.line.sparql-generate constant.variable.sparql.turtle
+785 " " meta.embedded.line.sparql-generate
+786 "/" meta.embedded.line.sparql-generate support.class.sparql
+787 " " meta.embedded.line.sparql-generate
+788 "?" meta.embedded.line.sparql-generate constant.variable.sparql.turtle
+793 " " meta.embedded.line.sparql-generate
+794 "}" meta.embedded.line.sparql-generate punctuation.section.embedded.end.sparql-generate
+795 " " -
+802 "e" constant.complex.turtle storage.type.PNAME_NS.turtle
+805 "l" constant.complex.turtle support.variable.PN_LOCAL.turtle
+809 " " -
+810 "L" keyword.control.sparql-generate
+814 "(" -
+816 "?" constant.variable.sparql.turtle
+823 " " -
+832 "e" constant.complex.turtle storage.type.PNAME_NS.turtle
+835 "p" constant.complex.turtle support.variable.PN_LOCAL.turtle
+840 " " -
+841 "\"" string.quoted.double.turtle punctuation.definition.string.begin.turtle
+842 "n" string.quoted.double.turtle
+855 "\"" string.quoted.double.turtle punctuation.definition.string.end.turtle
+856 " " -
+859 "<" entity.name.type.iriref.turtle
+885 " " -
+890 "<" entity.name.type.iriref.sparql-generate
+891 "{" entity.name.type.iriref.sparql-generate meta.embedded.line.sparql-generate punctuation.section.embedded.begin.sparql-generate
+892 "?" entity.name.type.iriref.sparql-generate meta.embedded.line.sparql-generate constant.variable.sparql.turtle
+896 "}" entity.name.type.iriref.sparql-generate meta.embedded.line.sparql-generate punctuation.section.embedded.end.sparql-generate
+897 ">" entity.name.type.iriref.sparql-generate
+898 " " -
+899 "e" constant.complex.turtle storage.type.PNAME_NS.turtle
+902 "p" constant.complex.turtle support.variable.PN_LOCAL.turtle
+903 " " -
+904 "_" constant.complex.turtle storage.type.PNAME_NS.turtle
+906 "b" constant.complex.turtle support.variable.PN_LOCAL.turtle
+907 " " -
+910 "e" constant.complex.turtle storage.type.PNAME_NS.turtle
+913 "q" constant.complex.turtle support.variable.PN_LOCAL.turtle
+914 " " -
+917 "e" constant.complex.turtle storage.type.PNAME_NS.turtle
+920 "r" constant.complex.turtle support.variable.PN_LOCAL.turtle
+921 " " -
+922 "?" constant.variable.sparql.turtle
+924 " " -
+932 "G" keyword.control.sparql-generate
+940 " " -
+941 "e" constant.complex.turtle storage.type.PNAME_NS.turtle
+944 "s" constant.complex.turtle support.variable.PN_LOCAL.turtle
+947 "(" -
+948 "?" constant.variable.sparql.turtle
+953 "," -
+955 "\"" string.quoted.double.turtle punctuation.definition.string.begin.turtle
+956 "l" string.quoted.double.turtle
+961 "\"" string.quoted.double.turtle punctuation.definition.string.end.turtle
+962 ")" -
+968 "G" keyword.control.sparql-generate
+976 " " -
+983 "?" constant.variable.sparql.turtle
+985 " " -
+986 "e" constant.complex.turtle storage.type.PNAME_NS.turtle
+989 "l" constant.complex.turtle support.variable.PN_LOCAL.turtle
+993 " " -
+994 "\"" string.quoted.triple.turtle punctuation.definition.string.begin.turtle
+997 "m" string.quoted.triple.turtle
+1007 "\n" -
+1008 "t" string.quoted.triple.turtle
+1017 "{" string.quoted.triple.turtle meta.embedded.line.sparql-generate punctuation.section.embedded.begin.sparql-generate
+1018 "?" string.quoted.triple.turtle meta.embedded.line.sparql-generate constant.variable.sparql.turtle
+1020 "}" string.quoted.triple.turtle meta.embedded.line.sparql-generate punctuation.section.embedded.end.sparql-generate
+1021 " " string.quoted.triple.turtle
+1047 "\n" -
+1048 "\"" string.quoted.triple.turtle punctuation.definition.string.end.turtle
+1051 " " -
+1058 "?" constant.variable.sparql.turtle
+1060 " " -
+1061 "e" constant.complex.turtle storage.type.PNAME_NS.turtle
+1064 "s" constant.complex.turtle support.variable.PN_LOCAL.turtle
+1070 " " -
+1071 "'" string.quoted.triple.turtle punctuation.definition.string.begin.turtle
+1074 "a" string.quoted.triple.turtle
+1079 "{" string.quoted.triple.turtle meta.embedded.line.sparql-generate punctuation.section.embedded.begin.sparql-generate
+1080 "?" string.quoted.triple.turtle meta.embedded.line.sparql-generate constant.variable.sparql.turtle
+1082 "}" string.quoted.triple.turtle meta.embedded.line.sparql-generate punctuation.section.embedded.end.sparql-generate
+1083 "'" string.quoted.triple.turtle punctuation.definition.string.end.turtle
+1086 " " -
+1095 "I" keyword.control.sparql-generate
+1103 " " -
+1104 "i" support.function.library.sparql-generate
+1114 "(" -
+1115 "?" constant.variable.sparql.turtle
+1120 "," -
+1122 "\"" string.quoted.double.turtle punctuation.definition.string.begin.turtle
+1123 "," string.quoted.double.turtle
+1124 "\"" string.quoted.double.turtle punctuation.definition.string.end.turtle
+1125 ")" -
+1127 "A" keyword.control.sparql
+1129 " " -
+1130 "?" constant.variable.sparql.turtle
+1137 "\n" -
+1140 "W" keyword.control.sparql
+1145 " " -
+1148 "?" constant.variable.sparql.turtle
+1150 " " -
+1151 "e" constant.complex.turtle storage.type.PNAME_NS.turtle
+1154 "p" constant.complex.turtle support.variable.PN_LOCAL.turtle
+1155 " " -
+1156 "?" constant.variable.sparql.turtle
+1158 " " -
+1165 "F" keyword.control.sparql
+1169 " " -
+1170 "G" keyword.control.sparql-generate
+1178 " " -
+1179 "e" constant.complex.turtle storage.type.PNAME_NS.turtle
+1182 "g" constant.complex.turtle support.variable.PN_LOCAL.turtle
+1187 "(" -
+1188 "?" constant.variable.sparql.turtle
+1193 ")" -
+1195 "N" keyword.control.sparql
+1200 " " -
+1201 "<" entity.name.type.iriref.turtle
+1227 " " -
+1230 "S" keyword.control.sparql-generate
+1236 " " -
+1237 "<" entity.name.type.iriref.turtle
+1267 " " -
+1268 "A" keyword.control.sparql-generate
+1274 " " -
+1275 "<" entity.name.type.iriref.turtle
+1337 " " -
+1338 "A" keyword.control.sparql
+1340 " " -
+1341 "?" constant.variable.sparql.turtle
+1348 "\n" -
+1349 "S" keyword.control.sparql-generate
+1355 " " -
+1356 "?" constant.variable.sparql.turtle
+1360 " " -
+1361 "A" keyword.control.sparql-generate
+1367 " " -
+1368 "?" constant.variable.sparql.turtle
+1373 " " -
+1374 "A" keyword.control.sparql
+1376 " " -
+1377 "?" constant.variable.sparql.turtle
+1382 "\n" -
+1383 "I" keyword.control.sparql-generate
+1391 " " -
+1392 "i" support.function.library.sparql-generate
+1405 "(" -
+1406 "?" constant.variable.sparql.turtle
+1413 "," -
+1415 "\"" string.quoted.double.turtle punctuation.definition.string.begin.turtle
+1416 "$" string.quoted.double.turtle
+1427 "\"" string.quoted.double.turtle punctuation.definition.string.end.turtle
+1428 "," -
+1430 "\"" string.quoted.double.turtle punctuation.definition.string.begin.turtle
+1431 "$" string.quoted.double.turtle
+1437 "\"" string.quoted.double.turtle punctuation.definition.string.end.turtle
+1438 "," -
+1440 "\"" string.quoted.double.turtle punctuation.definition.string.begin.turtle
+1441 "$" string.quoted.double.turtle
+1447 "\"" string.quoted.double.turtle punctuation.definition.string.end.turtle
+1448 ")" -
+1450 "A" keyword.control.sparql
+1452 " " -
+1453 "?" constant.variable.sparql.turtle
+1458 " " -
+1459 "?" constant.variable.sparql.turtle
+1464 " " -
+1465 "?" constant.variable.sparql.turtle
+1470 "\n" -
+1471 "B" keyword.control.sparql
+1475 " " -
+1477 "f" support.function.library.sparql-generate
+1489 "(" -
+1490 "?" constant.variable.sparql.turtle
+1495 "," -
+1497 "\"" string.quoted.double.turtle punctuation.definition.string.begin.turtle
+1498 "$" string.quoted.double.turtle
+1504 "\"" string.quoted.double.turtle punctuation.definition.string.end.turtle
+1505 ")" -
+1507 "A" keyword.control.sparql
+1509 " " -
+1510 "?" constant.variable.sparql.turtle
+1515 ")" -
+1517 "W" keyword.control.sparql
+1522 " " -
+1527 "?" constant.variable.sparql.turtle
+1532 " " -
+1533 "e" constant.complex.turtle storage.type.PNAME_NS.turtle
+1536 "p" constant.complex.turtle support.variable.PN_LOCAL.turtle
+1546 " " -
+1547 "?" constant.variable.sparql.turtle
+1558 " " -
+1563 "F" keyword.control.sparql
+1569 "(" -
+1570 "?" constant.variable.sparql.turtle
+1581 " " -
+1582 ">" support.class.sparql
+1583 " " -
+1584 "1" constant.numeric.turtle
+1586 " " -
+1587 "&" support.class.sparql
+1589 " " -
+1590 "r" support.function.sparql
+1595 "(" -
+1596 "?" constant.variable.sparql.turtle
+1601 "," -
+1603 "\"" string.quoted.double.turtle punctuation.definition.string.begin.turtle
+1604 "^" string.quoted.double.turtle
+1606 "\"" string.quoted.double.turtle punctuation.definition.string.end.turtle
+1607 ")" -
+1612 "O" keyword.control.sparql
+1617 " " -
+1618 "B" keyword.control.sparql
+1620 " " -
+1621 "?" constant.variable.sparql.turtle
+1626 "\n" -
+1627 "L" keyword.control.sparql
+1632 " " -
+1633 "1" constant.numeric.turtle
+1635 "\n" -
+1636 "E" keyword.control.sparql-generate
+1647 " " -
+1649 "f" support.function.library.sparql-generate
+1658 "(" -
+1659 "S" support.function.sparql
+1662 "(" -
+1663 "?" constant.variable.sparql.turtle
+1668 ")" -
+1671 "A" keyword.control.sparql
+1673 " " -
+1674 "?" constant.variable.sparql.turtle
+1680 ")" -

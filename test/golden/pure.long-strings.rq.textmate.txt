@@ -1,0 +1,36 @@
+# TextMate
+0 "#" comment.line.number-sign.turtle
+78 "\n" -
+79 "#" comment.line.number-sign.turtle
+127 "\n" -
+128 "P" keyword.operator.turtle
+135 "e" constant.complex.turtle storage.type.PNAME_NS.turtle
+138 " " -
+139 "<" entity.name.type.iriref.turtle
+163 "\n" -
+165 "S" keyword.control.sparql
+171 " " -
+172 "?" constant.variable.sparql.turtle
+174 " " -
+175 "W" keyword.control.sparql
+180 " " -
+185 "?" constant.variable.sparql.turtle
+187 " " -
+188 "e" constant.complex.turtle storage.type.PNAME_NS.turtle
+191 "s" constant.complex.turtle support.variable.PN_LOCAL.turtle
+198 " " -
+199 "\"" string.quoted.triple.turtle punctuation.definition.string.begin.turtle
+202 "A" string.quoted.triple.turtle
+208 "\n" -
+209 "s" string.quoted.triple.turtle
+230 "\"" string.quoted.triple.turtle punctuation.definition.string.end.turtle
+233 " " -
+238 "?" constant.variable.sparql.turtle
+240 " " -
+241 "e" constant.complex.turtle storage.type.PNAME_NS.turtle
+244 "o" constant.complex.turtle support.variable.PN_LOCAL.turtle
+249 " " -
+250 "'" string.quoted.triple.turtle punctuation.definition.string.begin.turtle
+253 "s" string.quoted.triple.turtle
+264 "'" string.quoted.triple.turtle punctuation.definition.string.end.turtle
+267 " " -
