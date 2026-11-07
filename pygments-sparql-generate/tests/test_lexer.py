@@ -10,6 +10,7 @@
 4. NO ERROR TOKEN on any fixture: every construct is recognised.
 5. REGISTRATION — ``sparql-generate`` and ``*.rqg`` reach the lexer through
    the Pygments plugin entry point (needs the package installed).
+6. PATTERNS — every pattern of the lexicon compiles under Python `re`.
 """
 
 import os
@@ -164,3 +165,10 @@ def test_guess_prefers_sparql_generate():
     from pygments.lexers import guess_lexer
     text = read(FIX / "generate.rqg")
     assert isinstance(guess_lexer(text), SparqlGenerateLexer)
+
+
+def test_patterns_compile_under_python_re():
+    from pygments_sparql_generate import _lexicon as L
+    for name, source in L.P.items():
+        re.compile(source)
+        re.compile("(?i)" + source)
