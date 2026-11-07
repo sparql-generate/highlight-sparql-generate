@@ -11,7 +11,7 @@ already ships.
 |---|---|---|---|
 | **Pygments** (MkDocs, Sphinx, ReadTheDocs, LaTeX `minted`, `pygmentize`) | Python package `pygments-sparql-generate`, lexer alias **`sparql-generate`** (also `rqg`), class `pygments_sparql_generate.SparqlGenerateLexer` | `pygments-sparql-generate/` | `pip install -e ../highlight-sparql-generate/pygments-sparql-generate` |
 | **CodeMirror 6** (web editors, the playground) | ES module **`dist/codemirror.mjs`**, export `sparqlGenerate` (a `StreamParser`); CommonJS: `src/codemirror.js`, export `build` | `dist/codemirror.mjs` | `npm install ../highlight-sparql-generate`, then `import { sparqlGenerate } from 'highlight-sparql-generate/codemirror.mjs'` — or copy the single file next to your page |
-| TextMate (VS Code, GitHub Linguist) | grammar `source.sparql-generate` | `dist/sparql-generate.tmLanguage.json` | vendored by `vscode-sparql-generate` |
+| TextMate (VS Code, GitHub Linguist) | grammar `source.sparql-generate` | `dist/sparql-generate.tmLanguage.json` | vendored by [vscode-sparql-generate](https://github.com/sparql-generate/vscode-sparql-generate), which `npm run generate` updates when it sits next to this repository |
 | highlight.js | language `sparql-generate` | `src/highlightjs.js` | `hljs.registerLanguage('sparql-generate', require('highlight-sparql-generate/highlightjs'))` |
 | Prism | language `sparql-generate` (alias `rqg`) | `src/prism.js` | `require('highlight-sparql-generate/prism')(Prism)` |
 
@@ -66,6 +66,24 @@ grammar of the Java engine (`spargl.jj`):
 - the **function and iterator libraries**, by their conventional prefixes:
   `fun:CSSPath(…)`, `iter:JSONPath(…)`. The prefix is declared by the query
   like any other, so this is a convention, not a rule of the grammar.
+
+## GitHub (Linguist)
+
+`dist/sparql-generate.tmLanguage.json` is self-contained (no include of a
+scope it does not define) and carries its licence, which is what GitHub
+Linguist asks of a grammar. Linguist only adds a **new language** once it is
+used in a couple of hundred repositories, so SPARQL-Generate is not
+recognised on GitHub yet. Meanwhile, a repository can have its `.rqg` files
+highlighted as SPARQL with one line of `.gitattributes`:
+
+```gitattributes
+*.rqg linguist-language=SPARQL
+```
+
+When the time comes, the submission is a pull request to
+[github-linguist/linguist](https://github.com/github-linguist/linguist)
+adding `SPARQL-Generate` (`.rqg`, `tm_scope: source.sparql-generate`) and this
+repository as the grammar source.
 
 ## The principle
 
