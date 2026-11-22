@@ -1,0 +1,57 @@
+# Publish on a version tag (vX.Y.Z, the version of package.json and of
+# pygments-sparql-generate/pyproject.toml):
+#   - pygments-sparql-generate to PyPI, by trusted publishing (no token):
+#     once, on pypi.org, add a pending publisher for the project
+#     "pygments-sparql-generate": owner sparql-generate, repository
+#     highlight-sparql-generate, workflow publish.yml, environment pypi;
+#   - highlight-sparql-generate to npm, with provenance: once, an npm
+#     automation token in the repository secret NPM_TOKEN (later releases can
+#     switch to npm trusted publishing).
+# A job whose credential is missing fails without affecting the other.
+name: Publish
+
+on:
+  push:
+    tags: ['v*']
+
+jobs:
+  test:
+    uses: ./.github/workflows/test.yml
+
+  pypi:
+    needs: test
+    runs-on: ubuntu-latest
+    environment: pypi
+    permissions:
+      id-token: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Check the version against the tag
+        run: |
+          v=$(python -c "import tomllib;print(tomllib.load(open('pygments-sparql-generate/pyproject.toml','rb'))['project']['version'])")
+          test "v$v" = "$GITHUB_REF_NAME"
+      - run: pip install build && python -m build pygments-sparql-generate --outdir dist-py
+      - uses: pypa/gh-action-pypi-publish@release/v1
+        with:
+          packages-dir: dist-py
+
+  npm:
+    needs: test
+    runs-on: ubuntu-latest
+    permissions:
+      id-token: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          registry-url: 'https://registry.npmjs.org'
+      - name: Check the version against the tag
+        run: test "v$(node -p "require('./package.json').version")" = "$GITHUB_REF_NAME"
+      - run: npm ci
+      - run: npm publish --provenance --access public
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
