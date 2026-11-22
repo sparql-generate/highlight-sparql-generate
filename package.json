@@ -4,7 +4,10 @@
   "description": "Syntax highlighting for SPARQL-Generate (.rqg): one lexicon, five engines (TextMate, highlight.js, Prism, CodeMirror 6, Pygments).",
   "license": "Apache-2.0",
   "author": "Maxime Lefrançois",
-  "repository": "github:sparql-generate/highlight-sparql-generate",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sparql-generate/highlight-sparql-generate.git"
+  },
   "homepage": "https://github.com/sparql-generate/highlight-sparql-generate",
   "keywords": [
     "codemirror",
