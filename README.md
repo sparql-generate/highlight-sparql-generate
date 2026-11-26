@@ -58,6 +58,9 @@ grammar of the Java engine (`spargl.jj`):
   `PERFORM`, `FUNCTION`, `ITERATOR`, `SOURCE` … `ACCEPT`, `BOX`, `FORMAT`,
   `BEFORE`, `AFTER`, `LIST`, `EXPRESSIONS`, `PRAGMA`, and `GROUP` alone
   (a template group, `GROUP DISTINCT { … ; SEPARATOR = ", " }`);
+- the **built-in call** `RAISE(message, value, …)` (SPARQL-Generate 2.6.0),
+  an expression that stops the execution with an error: a keyword in any
+  case, highlighted as each engine highlights `COALESCE`;
 - **expression nodes**: `?{ expr }` and `${ expr }` in node position;
 - **embedded expressions** in IRIs, `<http://example.org/{?id}>`, and in
   string literals of all four quote styles, `"Hello {?name}"`,
@@ -117,11 +120,12 @@ CodeMirror ES module are generated the same way, into `dist/`.
 2. **Golden** files per engine (`test/golden/`) for every fixture; the
    SPARQL-Generate fixtures cover every construct listed above.
 3. **Roles.** On the SPARQL-Generate fixtures, every engine gives the same
-   role (keyword, library function, interpolation brace) to the same
+   role (keyword, built-in call, library function, interpolation brace) to the same
    characters.
 4. **Syntax.** The fixtures are valid SPARQL-Generate for the Java engine
    (`-x` of the CLI; skipped when no JAR is found — `SPARQL_GENERATE_JAR=…`,
-   `SPARQL_GENERATE_JAVA=…` to name a JAR and a Java ≥ 17 for 2.2).
+   `SPARQL_GENERATE_JAVA=…` to name a JAR and a Java ≥ 17; `raise.rqg` needs
+   2.6.0 or later).
 5. **Drift.** Every generated file is the output of `npm run generate`, and
    every pattern of the lexicon compiles under V8 and Oniguruma (and Python
    `re`, through pytest).

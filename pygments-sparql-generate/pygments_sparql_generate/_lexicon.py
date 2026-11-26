@@ -137,6 +137,10 @@ GENERATE_KEYWORDS = [
     "pragma",
 ]
 
+GENERATE_BUILTINS = [
+    "raise",
+]
+
 REUSED_KEYWORDS = [
     "group",
 ]
@@ -149,6 +153,7 @@ LIBRARY_PREFIXES = [
 # Final regular-expression sources (Python `re` syntax).
 P = {
     "generateKeywords": "(?<![\\w?$:.\\-])(?:generate|template|perform|function|iterator|source|accept|box|format|before|after|list|expressions|pragma)(?![\\w\\-:])",
+    "generateBuiltins": "(?<![\\w?$:.\\-])(?:raise)(?![\\w\\-:])",
     "reusedKeywords": "(?<![\\w?$:.\\-])(?:group)(?![\\w\\-:])",
     "libraryName": "(?<![\\w?$:.\\-])(?:fun|iter):[A-Za-z_](?:[\\w.\\-]*[\\w\\-])?",
     "xexprOpen": "[?$]\\{",
@@ -160,6 +165,7 @@ P = {
 
 ROLES = {
     "keyword.generate": "a SPARQL-Generate keyword",
+    "builtin.generate": "a SPARQL-Generate built-in call (RAISE)",
     "function.library": "a fun: or iter: function name",
     "interp.punct": "the braces of an embedded expression, and ?{ / ${",
     "string": "the literal part of a string with embedded expressions",

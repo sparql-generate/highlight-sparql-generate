@@ -77,10 +77,11 @@ const engines = [];
             const s = last(c);
             if (/^punctuation\.section\.embedded\.(begin|end)\.sparql-generate$/.test(s)) return ['interp.punct'];
             if (s === 'keyword.control.sparql-generate') return ['keyword.generate'];
+            if (s === 'support.function.builtin.sparql-generate') return ['builtin.generate'];
             if (s === 'support.function.library.sparql-generate') return ['function.library'];
             return [];
         },
-        exact: ['interp.punct', 'keyword.generate', 'function.library'],
+        exact: ['interp.punct', 'keyword.generate', 'builtin.generate', 'function.library'],
     });
 }
 
@@ -228,7 +229,7 @@ async function checkGoldens() {
 // SPARQL construct (CodeMirror gives `keyword` to every keyword) must mark at
 // least those characters.
 
-const ROLES_CHECKED = ['interp.punct', 'keyword.generate', 'function.library'];
+const ROLES_CHECKED = ['interp.punct', 'keyword.generate', 'builtin.generate', 'function.library'];
 
 async function checkRoles() {
     for (const f of CONSTRUCTS) {

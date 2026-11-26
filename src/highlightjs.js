@@ -23,6 +23,7 @@ const SCOPE = {
     'interp.punct': 'template-variable',
     'interp.body': 'subst',
     'keyword.generate': 'keyword',
+    'builtin.generate': 'built_in',
     'function.library': 'built_in',
     'string': 'string',
     'iri': 'link',
@@ -34,7 +35,7 @@ function sparqlGenerate(hljs) {
     const KEYWORDS = {
         $pattern: /[A-Za-z_]\w*/,
         keyword: L.SPARQL_KEYWORDS.concat(L.GENERATE_KEYWORDS, ['a']),
-        built_in: L.SPARQL_BUILTINS,
+        built_in: L.SPARQL_BUILTINS.concat(L.GENERATE_BUILTINS),
         literal: ['true', 'false'],
     };
 

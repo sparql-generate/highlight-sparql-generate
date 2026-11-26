@@ -22,7 +22,7 @@ function pythonLexicon() {
         '',
     ];
     const lists = ['SPARQL_KEYWORDS', 'SPARQL_BUILTINS', 'GENERATE_KEYWORDS',
-        'REUSED_KEYWORDS', 'LIBRARY_PREFIXES'];
+        'GENERATE_BUILTINS', 'REUSED_KEYWORDS', 'LIBRARY_PREFIXES'];
     for (const name of lists) {
         lines.push(`${name} = [`);
         for (const w of L[name]) lines.push(`    ${JSON.stringify(w)},`);

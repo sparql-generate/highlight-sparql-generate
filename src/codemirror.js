@@ -5,7 +5,7 @@
  * A `StreamParser` that DELEGATES to the SPARQL mode of
  * `@codemirror/legacy-modes` (`mode/sparql`), token for token, everything
  * that is SPARQL, and handles itself only what `src/lexicon.js` describes:
- * the SPARQL-Generate keywords, the `fun:`/`iter:` library names, the
+ * the SPARQL-Generate keywords and built-in calls (`RAISE`), the `fun:`/`iter:` library names, the
  * expression nodes `?{ … }` / `${ … }`, and the expressions embedded in IRIs
  * and string literals. A plain SPARQL 1.1 query therefore gets exactly the
  * tokens of the SPARQL mode (parity test, `npm test`).
@@ -38,6 +38,7 @@ const L = require('./lexicon');
  *  own, mapped to a tag by `tokenTable`. */
 const TOKEN = {
     'keyword.generate': 'keyword',
+    'builtin.generate': 'builtin',
     'function.library': 'builtin',
     'string': 'string',
     'iri': 'atom',
@@ -53,6 +54,7 @@ const sticky = (source, flags = '') => new RegExp(source, 'y' + flags);
 
 const RE = {
     keyword: sticky(L.P.generateKeywords, 'i'),
+    builtin: sticky(L.P.generateBuiltins, 'i'),
     library: sticky(L.P.libraryName),
     xexprOpen: sticky(L.P.xexprOpen),
     xiriStart: sticky(L.P.xiriStart),
@@ -159,6 +161,7 @@ function build(options = {}) {
                 }
             }
             if (matchAt(stream, RE.keyword)) return TOKEN['keyword.generate'];
+            if (matchAt(stream, RE.builtin)) return TOKEN['builtin.generate'];
             if (matchAt(stream, RE.library)) return TOKEN['function.library'];
         }
         return sparql.token(stream, state.base);

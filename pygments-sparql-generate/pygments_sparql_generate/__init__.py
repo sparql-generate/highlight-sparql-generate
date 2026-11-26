@@ -8,4 +8,4 @@ minted, MkDocs and Sphinx find it by name.
 from .lexer import SparqlGenerateLexer
 
 __all__ = ["SparqlGenerateLexer"]
-__version__ = "0.1.0"
+__version__ = "0.2.0"

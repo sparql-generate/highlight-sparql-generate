@@ -26,6 +26,8 @@ const NAME = 'sparql-generate';
 const ALIAS = {
     'interp.punct': ['interpolation-punctuation', 'punctuation'],
     'keyword.generate': 'keyword',
+    // Prism's SPARQL gives its built-in calls (COALESCE, IF) the class keyword
+    'builtin.generate': 'keyword',
     'function.library': 'builtin',
     'string': 'string',
     'iri': 'url',
@@ -83,6 +85,10 @@ function register(Prism) {
         'generate-keyword': {
             pattern: new RegExp(L.P.generateKeywords, 'i'),
             alias: ALIAS['keyword.generate'],
+        },
+        'generate-builtin': {
+            pattern: new RegExp(L.P.generateBuiltins, 'i'),
+            alias: ALIAS['builtin.generate'],
         },
     });
 

@@ -20,6 +20,9 @@
       "include": "#sg-keywords"
     },
     {
+      "include": "#sg-builtins"
+    },
+    {
       "include": "#sparql"
     }
   ],
@@ -107,6 +110,11 @@
       "comment": "The keywords SPARQL-Generate adds to SPARQL 1.1.",
       "name": "keyword.control.sparql-generate",
       "match": "(?i)(?<![\\w?$:.\\-])(?:generate|template|perform|function|iterator|source|accept|box|format|before|after|list|expressions|pragma)(?![\\w\\-:])"
+    },
+    "sg-builtins": {
+      "comment": "The built-in calls SPARQL-Generate adds to SPARQL 1.1: RAISE(message, value, ...).",
+      "name": "support.function.builtin.sparql-generate",
+      "match": "(?i)(?<![\\w?$:.\\-])(?:raise)(?![\\w\\-:])"
     },
     "turtle-prefix": {
       "name": "keyword.operator.turtle",

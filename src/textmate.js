@@ -15,7 +15,9 @@
  * On top of the base, and only there, the lexicon of src/lexicon.js:
  *
  *   - patterns placed BEFORE the base ones at the root: expression nodes
- *     `?{ … }`, IRIs with embedded expressions, library names, keywords;
+ *     `?{ … }`, IRIs with embedded expressions, library names, keywords,
+ *     built-in calls (`RAISE`, scoped `support.function` as the base scopes
+ *     `COALESCE`);
  *   - an interpolation rule injected at the head of the base's string rules,
  *     so a string with `{ … }` keeps the base's scopes for its literal part.
  *
@@ -113,6 +115,11 @@ function build() {
         name: 'keyword.control.sparql-generate',
         match: '(?i)' + L.P.generateKeywords,
     };
+    repository['sg-builtins'] = {
+        comment: 'The built-in calls SPARQL-Generate adds to SPARQL 1.1: RAISE(message, value, ...).',
+        name: 'support.function.builtin.sparql-generate',
+        match: '(?i)' + L.P.generateBuiltins,
+    };
 
     // ------------------------------------------------------ the base
     for (const [k, v] of Object.entries(turtle.repository)) {
@@ -145,6 +152,7 @@ function build() {
             { include: '#sg-iri' },
             { include: '#sg-library' },
             { include: '#sg-keywords' },
+            { include: '#sg-builtins' },
             { include: '#sparql' },
         ],
         repository,

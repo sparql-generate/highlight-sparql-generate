@@ -1,0 +1,135 @@
+# highlight.js
+0 "#" comment
+73 "\n" -
+74 "#" comment
+139 "\n" -
+140 "B" keyword
+144 " " -
+145 "<" link
+166 "\n" -
+167 "P" keyword
+173 " " -
+174 "e" symbol
+177 " " -
+178 "<" link
+199 "\n" -
+200 "P" keyword
+206 " " -
+207 "i" symbol
+212 " " -
+213 "<" link
+252 "\n" -
+254 "G" keyword
+262 " " -
+267 "<" link
+275 "{" template-variable
+276 "?" variable
+281 "}" template-variable
+282 ">" link
+283 " " -
+284 "e" symbol
+292 " " -
+293 "?" variable
+298 " " -
+305 "e" symbol
+311 " " -
+312 "?" template-variable
+314 " " subst
+315 "I" built_in
+317 "(" subst
+318 "?" variable
+322 " " subst
+323 ">" operator
+325 " " subst
+326 "0" number
+327 "," subst
+329 "?" variable
+333 "," subst
+335 "R" built_in
+340 "(" subst
+341 "\"" string
+355 "{" template-variable
+356 "?" variable
+360 "}" template-variable
+361 "\"" string
+362 "," subst
+364 "?" variable
+369 ")" subst
+372 "}" template-variable
+373 " " -
+380 "e" symbol
+388 " " -
+389 "?" variable
+395 " " -
+400 "I" keyword
+408 " " -
+409 "i" built_in
+417 "(" -
+418 "<" link
+430 "," -
+432 "\"" string
+438 "," -
+440 "\"" string
+447 "," -
+449 "\"" string
+454 ")" -
+456 "A" keyword
+458 " " -
+459 "?" variable
+464 " " -
+465 "?" variable
+471 " " -
+472 "?" variable
+476 " " -
+477 "?" variable
+481 "\n" -
+484 "B" keyword
+488 "(" -
+489 "C" built_in
+497 "(" -
+498 "I" built_in
+501 "(" -
+502 "C" built_in
+508 "(" -
+509 "\"" string
+518 "," -
+520 "?" variable
+526 ")" -
+530 "R" built_in
+535 "(" -
+536 "\"" string
+558 "," -
+560 "?" variable
+565 "," -
+567 "?" variable
+571 ")" -
+574 "A" keyword
+576 " " -
+577 "?" variable
+582 ")" -
+586 "B" keyword
+590 "(" -
+591 "?" variable
+595 " " -
+596 "A" keyword
+598 " " -
+599 "?" variable
+605 ")" -
+607 "W" keyword
+612 " " -
+617 "F" keyword
+623 "(" -
+624 "B" built_in
+629 "(" -
+630 "?" variable
+635 ")" -
+637 "|" operator
+639 " " -
+640 "r" built_in
+645 "(" -
+646 "\"" string
+651 "{" template-variable
+652 "?" variable
+656 "}" template-variable
+657 " " string
+670 ")" -

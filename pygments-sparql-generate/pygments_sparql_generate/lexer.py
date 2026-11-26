@@ -13,6 +13,8 @@ every engine.
 - the keywords of SPARQL-Generate (``GENERATE``, ``TEMPLATE``, ``ITERATOR``,
   ``SOURCE`` ... ``ACCEPT``, ``BOX``, ``FORMAT`` ...), and ``GROUP`` alone (a
   template group), which SPARQL only knows in ``GROUP BY``;
+- the built-in calls it adds to the expressions (``RAISE``), tokenised
+  ``Name.Function`` as ``SparqlLexer`` tokenises ``COALESCE``;
 - expression nodes ``?{ expr }`` and ``${ expr }``;
 - expressions embedded in IRIs (``<http://ex/{?id}>``) and in string
   literals (``"Hello {?name}"``), in all four quote styles. ``\\{`` and
@@ -85,6 +87,7 @@ def _tokens():
     additions = [
         (_ci(L.P["generateKeywords"]), Keyword),
         (_ci(L.P["reusedKeywords"]), Keyword),
+        (_ci(L.P["generateBuiltins"]), Name.Function),
         (L.P["libraryName"], Name.Function),
         (L.P["xexprOpen"], INTERPOL, "sg-expression"),
         (L.P["xiriStart"], Name.Label, "sg-iri"),

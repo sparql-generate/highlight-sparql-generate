@@ -9,6 +9,7 @@
  *
  *   - the keywords of the new query forms and clauses (`GENERATE`, `TEMPLATE`,
  *     `ITERATOR`, `SOURCE … ACCEPT`, `BOX`, `FORMAT`, …);
+ *   - the built-in calls it adds to the SPARQL expressions (`RAISE`);
  *   - the expression nodes: `?{ expr }` / `${ expr }` in node position, and
  *     `{ expr }` embedded in IRIs (`<http://ex/{?id}>`) and in string
  *     literals (`"Hello {?name}!"`, all four quote styles);
@@ -71,6 +72,14 @@ const GENERATE_KEYWORDS = [
     'box', 'format', 'before', 'after',
     'list', 'expressions', 'pragma',
 ];
+
+/** The built-in calls SPARQL-Generate adds to the SPARQL 1.1 expressions
+ *  (`BuiltInCall` of `spargl.jj`): `RAISE(message, value, ...)`, which stops
+ *  the execution with an error (SPARQL-Generate 2.6.0). A keyword of the
+ *  grammar, case-insensitive like the others, highlighted as each engine's
+ *  SPARQL highlights `COALESCE`. Never a bare word in a SPARQL 1.1 query
+ *  either. */
+const GENERATE_BUILTINS = ['raise'];
 
 /** SPARQL words that SPARQL-Generate uses BARE where SPARQL never does:
  *  `GROUP` alone opens a template group (`GROUP DISTINCT { … }`), where
@@ -140,6 +149,7 @@ const R = {
 
 const ROLES = {
     'keyword.generate': 'a SPARQL-Generate keyword',
+    'builtin.generate': 'a SPARQL-Generate built-in call (RAISE)',
     'function.library': 'a fun: or iter: function name',
     'interp.punct': 'the braces of an embedded expression, and ?{ / ${',
     'string': 'the literal part of a string with embedded expressions',
@@ -153,6 +163,7 @@ const ROLES = {
 
 const P = {
     generateKeywords: R.word(GENERATE_KEYWORDS),
+    generateBuiltins: R.word(GENERATE_BUILTINS),
     reusedKeywords: R.word(REUSED_KEYWORDS),
     libraryName: R.libraryName,
     xexprOpen: R.xexprOpen,
@@ -166,6 +177,7 @@ module.exports = {
     SPARQL_KEYWORDS,
     SPARQL_BUILTINS,
     GENERATE_KEYWORDS,
+    GENERATE_BUILTINS,
     REUSED_KEYWORDS,
     LIBRARY_PREFIXES,
     R,

@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "pygments-sparql-generate"
-version = "0.1.0"
+version = "0.2.0"
 description = "Pygments lexer for SPARQL-Generate (.rqg): SPARQL 1.1 plus templates, iterators and sources."
 readme = "README.md"
 license = { text = "Apache-2.0" }

@@ -172,3 +172,19 @@ def test_patterns_compile_under_python_re():
     for name, source in L.P.items():
         re.compile(source)
         re.compile("(?i)" + source)
+
+
+# ------------------------------------------------------- 7. built-in calls
+
+@pytest.mark.parametrize("word", ["RAISE", "raise", "Raise"])
+def test_raise_is_a_builtin_in_any_case(word):
+    """RAISE (SPARQL-Generate 2.6.0) is tokenised as SparqlLexer tokenises
+    COALESCE, whatever its case; a variable or a local name stays one."""
+    from pygments.token import Name
+    text = f'BIND(COALESCE(?x, {word}("no x", ?raise, ex:raise)) AS ?y)\n'
+    tokens = list(SparqlGenerateLexer().get_tokens(text))
+    assert (Name.Function, word) in tokens
+    assert (Name.Function, "COALESCE") in tokens
+    assert (Name.Variable, "?raise") in tokens
+    assert not any(t is Name.Function and v.lower() == "raise" and v != word
+                   for t, v in tokens)

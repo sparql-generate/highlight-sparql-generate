@@ -1,6 +1,6 @@
 {
   "name": "highlight-sparql-generate",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Syntax highlighting for SPARQL-Generate (.rqg): one lexicon, five engines (TextMate, highlight.js, Prism, CodeMirror 6, Pygments).",
   "license": "Apache-2.0",
   "author": "Maxime Lefrançois",
@@ -37,6 +37,7 @@
     "dist/",
     "vendor/",
     "README.md",
+    "CHANGELOG.md",
     "LICENSE",
     "NOTICE"
   ],

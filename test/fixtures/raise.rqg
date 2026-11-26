@@ -1,0 +1,16 @@
+# RAISE(message, value, ...): an error that only the data reveal (2.6.0).
+# The word is a keyword in any case; ?raise and ex:raise are not.
+BASE <http://example.com/>
+PREFIX ex: <http://example.com/>
+PREFIX iter: <http://w3id.org/sparql-generate/iter/>
+
+GENERATE {
+  <person/{?name}> ex:email ?mbox ;
+    ex:age ?{ IF(?age >= 0, ?age, Raise("negative age {?age}", ?name)) } ;
+    ex:raise ?raise .
+} ITERATOR iter:CSV(<people.csv>, "name", "email", "age") AS ?name ?email ?age ?row
+  BIND(COALESCE(IRI(CONCAT("mailto:", ?email)), RAISE("No email address for", ?name, ?row)) AS ?mbox)
+  BIND(?row AS ?raise)
+WHERE {
+  FILTER(BOUND(?name) || raise("row {?row} has no name"))
+}
